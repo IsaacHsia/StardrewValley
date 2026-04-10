@@ -229,6 +229,16 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "d25e1854ce0edb8e",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
           }
         ],
         "currentTab": 6
@@ -249,10 +259,12 @@
       "obsidian-excalidraw-plugin:New drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false,
+      "claudian:Open Claudian": false
     }
   },
-  "active": "1208d9f96c57bda0",
+  "active": "d25e1854ce0edb8e",
   "lastOpenFiles": [
     "设计思路/结算流程.md",
     "设计思路/游戏玩法框架思路.md",
