@@ -48,25 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "f61adb878bd406d7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2f90865e444b30ec",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "设计思路/Demo设想.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Demo设想"
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -266,6 +248,10 @@
   },
   "active": "1208d9f96c57bda0",
   "lastOpenFiles": [
+    "模拟器UI设想.pptx",
+    "~$模拟器UI设想.pptx",
+    "设计思路/结算流程.md",
+    "设计思路/Demo设想.md",
     "error3.png",
     "error2.png",
     "error_screenshot.png",
@@ -286,10 +272,7 @@
     "Wiki-inbox",
     "Wiki/dashboards",
     "Wiki/synthesis",
-    "Wiki/tech-",
-    "设计思路/结算流程.md",
     "设计思路/游戏玩法框架思路.md",
-    "设计思路/Demo设想.md",
     "设计思路/Demo设计.md",
     "attachment/Pasted Image 20260409172703_503.png",
     "attachment/Pasted Image 20260409172647_420.png",
