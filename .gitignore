@@ -1,0 +1,15 @@
+# Obsidian
+.obsidian/
+obsidian/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.bak
+*~
+
+# Plugin specific (not git-tracked)
+Wiki-inbox/
