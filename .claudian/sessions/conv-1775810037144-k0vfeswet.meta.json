@@ -4,20 +4,20 @@
   "title": "看一下这个文档，你能理解里面在说什么吗",
   "titleGenerationStatus": "failed",
   "createdAt": 1775810037145,
-  "updatedAt": 1775814221393,
-  "lastResponseAt": 1775814221392,
+  "updatedAt": 1775814537639,
+  "lastResponseAt": 1775814537639,
   "sessionId": "04dfe688-9617-4e00-bcb2-68bec9c26c6c",
   "providerState": {
     "providerSessionId": "04dfe688-9617-4e00-bcb2-68bec9c26c6c"
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 38008,
+    "inputTokens": 42136,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 9438,
     "contextWindow": 200000,
-    "contextTokens": 47446,
-    "percentage": 24,
+    "contextTokens": 51574,
+    "percentage": 26,
     "contextWindowIsAuthoritative": true
   }
 }
