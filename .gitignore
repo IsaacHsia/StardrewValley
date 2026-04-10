@@ -2,6 +2,9 @@
 .obsidian/
 obsidian/
 
+# Claudian (AI assistant config)
+.claudian/
+
 # System
 .DS_Store
 Thumbs.db
