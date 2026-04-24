@@ -1,0 +1,120 @@
+{
+  "customOrder": {
+    "/": {
+      "children": [
+        "设计思路",
+        "attachment",
+        "Projects",
+        "raw",
+        "Wiki",
+        "Wiki-inbox",
+        "Worklogs",
+        "模拟器UI设想.pptx",
+        "CLAUDE.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "设计思路": {
+      "children": [
+        "设计思路/AI CLI使用方案.md",
+        "设计思路/策划需求案.md",
+        "设计思路/结算流程.md",
+        "设计思路/牌堆运作.md",
+        "设计思路/游戏玩法框架思路.md",
+        "设计思路/战斗计算公式.md",
+        "设计思路/AI需求描述.md",
+        "设计思路/Demo设计.md",
+        "设计思路/Demo设想.md",
+        "设计思路/UI层级.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "attachment": {
+      "children": [
+        "attachment/Pasted Image 20260409172647_420.png",
+        "attachment/Pasted Image 20260409172703_503.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Projects": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "raw": {
+      "children": [
+        "raw/assets",
+        "raw/sources"
+      ],
+      "sortOrder": "custom"
+    },
+    "raw/assets": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "raw/sources": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Wiki": {
+      "children": [
+        "Wiki/_templates",
+        "Wiki/dashboards",
+        "Wiki/process-",
+        "Wiki/project-",
+        "Wiki/synthesis",
+        "Wiki/team-",
+        "Wiki/tech-",
+        "Wiki/index.md",
+        "Wiki/log.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Wiki/_templates": {
+      "children": [
+        "Wiki/_templates/概念页模板.md",
+        "Wiki/_templates/技术页模板.md",
+        "Wiki/_templates/实体页模板.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Wiki/dashboards": {
+      "children": [
+        "Wiki/dashboards/index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Wiki/process-": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Wiki/project-": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Wiki/synthesis": {
+      "children": [
+        "Wiki/synthesis/index.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Wiki/team-": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Wiki/tech-": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Wiki-inbox": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Worklogs": {
+      "children": [],
+      "sortOrder": "custom"
+    }
+  },
+  "sortOrder": "custom",
+  "debugMode": false,
+  "newItemPlacement": "top"
+}
