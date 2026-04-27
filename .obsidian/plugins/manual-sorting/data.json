@@ -2,6 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
+        "游戏留学中介",
         "设计思路",
         "attachment",
         "Projects",
@@ -111,6 +112,12 @@
     },
     "Worklogs": {
       "children": [],
+      "sortOrder": "custom"
+    },
+    "游戏留学中介": {
+      "children": [
+        "游戏留学中介/短视频脚本1.md"
+      ],
       "sortOrder": "custom"
     }
   },

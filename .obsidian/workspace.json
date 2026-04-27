@@ -25,12 +25,12 @@
             "id": "1ca505d9db8d8ceb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "excel-pro-view",
               "state": {
-                "file": "设计思路/Demo设想.md"
+                "file": "游戏留学中介/短视频脚本1.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Demo设想"
+              "icon": "lucide-file",
+              "title": "短视频脚本1"
             }
           }
         ],
@@ -329,14 +329,22 @@
       "templater-obsidian:Templater": false,
       "obsidian42-brat:BRAT": false,
       "claudian:Open Claudian": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "sheet-plus:创建 Excel 文件": false
     }
   },
-  "active": "5de438a28cc63489",
+  "active": "1ca505d9db8d8ceb",
   "lastOpenFiles": [
-    "设计思路/策划需求案.md",
     "设计思路/AI CLI使用方案.md",
+    "游戏留学中介/短视频脚本1.md",
+    "游戏留学中介",
+    "Wiki/synthesis/index.md",
+    "Wiki/dashboards/index.md",
+    "Wiki/_templates/实体页模板.md",
+    "Wiki/_templates/技术页模板.md",
+    "Wiki/_templates/概念页模板.md",
     "设计思路/Demo设想.md",
+    "设计思路/策划需求案.md",
     "设计思路/AI需求描述.md",
     "设计思路/结算流程.md",
     "设计思路/Demo设计.md",
@@ -349,12 +357,7 @@
     "error3.png",
     "error2.png",
     "error_screenshot.png",
-    "Wiki/_templates/概念页模板.md",
-    "Wiki/_templates/技术页模板.md",
-    "Wiki/_templates/实体页模板.md",
     "Wiki/_templates",
-    "Wiki/dashboards/index.md",
-    "Wiki/synthesis/index.md",
     "CLAUDE.md",
     "Wiki/log.md",
     "Wiki/index.md",
@@ -364,7 +367,6 @@
     "Projects",
     "Worklogs",
     "Wiki-inbox",
-    "Wiki/dashboards",
     "attachment/Pasted Image 20260409172703_503.png",
     "attachment/Pasted Image 20260409172647_420.png",
     "设计思路/未命名.canvas",
