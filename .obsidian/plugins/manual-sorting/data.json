@@ -55,7 +55,8 @@
     },
     "raw/assets": {
       "children": [
-        "raw/assets/AI CLI使用方案.md"
+        "raw/assets/AI CLI使用方案.md",
+        "raw/assets/B站UP主“抵抗Resistance”风格视频制作指南.md"
       ],
       "sortOrder": "custom"
     },
@@ -65,6 +66,7 @@
     },
     "Wiki": {
       "children": [
+        "Wiki/tech-ai-cli-game-dev",
         "Wiki/_templates",
         "Wiki/dashboards",
         "Wiki/process-",
@@ -111,6 +113,12 @@
     },
     "Wiki/tech-": {
       "children": [],
+      "sortOrder": "custom"
+    },
+    "Wiki/tech-ai-cli-game-dev": {
+      "children": [
+        "Wiki/tech-ai-cli-game-dev/README.md"
+      ],
       "sortOrder": "custom"
     },
     "Wiki-inbox": {
