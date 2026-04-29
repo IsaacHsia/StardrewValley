@@ -1,0 +1,22 @@
+{
+  "id": "conv-1777444227195-av0ju7u58",
+  "providerId": "claude",
+  "title": "你好！有什么我可以帮你的吗？",
+  "titleGenerationStatus": "success",
+  "createdAt": 1777444227195,
+  "updatedAt": 1777450666553,
+  "lastResponseAt": 1777450666553,
+  "sessionId": "3b1e41a4-78ac-4485-98d1-cb9ecc8e3ac4",
+  "providerState": {
+    "providerSessionId": "3b1e41a4-78ac-4485-98d1-cb9ecc8e3ac4"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 737,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 23808,
+    "contextWindow": 200000,
+    "contextTokens": 24545,
+    "percentage": 12
+  }
+}

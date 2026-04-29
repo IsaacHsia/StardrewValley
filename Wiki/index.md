@@ -17,6 +17,12 @@ description: Content-oriented catalog of the knowledge wiki
 |------|---------|------|---------|
 | | | | |
 
+## Technical Patterns (技术模式)
+
+| Page | Summary | Date | Sources |
+|------|---------|------|---------|
+| [[tech-ai-cli-game-dev/README\|AI CLI 游戏引擎工程接管]] | 用 AI CLI 模式全面接管 Godot/Unity/Unreal 工程的工作流方案 | 2026-04-29 | 1 |
+
 ## Sources (来源)
 
 | Page | Summary | Date |

@@ -25,12 +25,14 @@
             "id": "1ca505d9db8d8ceb",
             "type": "leaf",
             "state": {
-              "type": "excel-pro-view",
+              "type": "markdown",
               "state": {
-                "file": "游戏留学中介/短视频脚本1.md"
+                "file": "Wiki/tech-ai-cli-game-dev/README.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "短视频脚本1"
+              "title": "README"
             }
           }
         ],
@@ -72,7 +74,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计思路/AI CLI使用方案.md",
+                "file": "raw/assets/AI CLI使用方案.md",
                 "mode": "source",
                 "source": false
               },
@@ -288,23 +290,13 @@
             }
           },
           {
-            "id": "d25e1854ce0edb8e",
+            "id": "66dcfbd826feedc4",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
               "state": {},
               "icon": "bot",
               "title": "Claudian"
-            }
-          },
-          {
-            "id": "c29aacbd3e6799a9",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {},
-              "icon": "trident-custom",
-              "title": "Mermaid Toolbar"
             }
           }
         ],
@@ -335,14 +327,21 @@
   },
   "active": "1ca505d9db8d8ceb",
   "lastOpenFiles": [
-    "设计思路/AI CLI使用方案.md",
-    "游戏留学中介/短视频脚本1.md",
-    "游戏留学中介",
-    "Wiki/synthesis/index.md",
-    "Wiki/dashboards/index.md",
+    "Wiki/_templates/概念页模板.md",
     "Wiki/_templates/实体页模板.md",
     "Wiki/_templates/技术页模板.md",
-    "Wiki/_templates/概念页模板.md",
+    "Wiki/tech-ai-cli-game-dev/README.md",
+    "Wiki/dashboards/index.md",
+    "Wiki/synthesis/index.md",
+    "Wiki/tech-ai-cli-game-dev",
+    "Wiki/index.md",
+    "Wiki/log.md",
+    "Wiki/index.md.tmp.63492.1777450297914",
+    "raw/assets/AI CLI使用方案.md",
+    "游戏留学中介/短视频脚本1.md",
+    "attachment/Pasted Image 20260409172647_420.png",
+    "attachment/Pasted Image 20260409172703_503.png",
+    "游戏留学中介",
     "设计思路/Demo设想.md",
     "设计思路/策划需求案.md",
     "设计思路/AI需求描述.md",
@@ -359,16 +358,10 @@
     "error_screenshot.png",
     "Wiki/_templates",
     "CLAUDE.md",
-    "Wiki/log.md",
-    "Wiki/index.md",
     "raw/sources",
     "raw/assets",
     "raw",
     "Projects",
-    "Worklogs",
-    "Wiki-inbox",
-    "attachment/Pasted Image 20260409172703_503.png",
-    "attachment/Pasted Image 20260409172647_420.png",
     "设计思路/未命名.canvas",
     "欢迎.md"
   ]

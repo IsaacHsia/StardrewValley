@@ -17,7 +17,6 @@
     },
     "设计思路": {
       "children": [
-        "设计思路/AI CLI使用方案.md",
         "设计思路/策划需求案.md",
         "设计思路/结算流程.md",
         "设计思路/牌堆运作.md",
@@ -27,6 +26,12 @@
         "设计思路/Demo设计.md",
         "设计思路/Demo设想.md",
         "设计思路/UI层级.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "游戏留学中介": {
+      "children": [
+        "游戏留学中介/短视频脚本1.md"
       ],
       "sortOrder": "custom"
     },
@@ -49,7 +54,9 @@
       "sortOrder": "custom"
     },
     "raw/assets": {
-      "children": [],
+      "children": [
+        "raw/assets/AI CLI使用方案.md"
+      ],
       "sortOrder": "custom"
     },
     "raw/sources": {
@@ -112,12 +119,6 @@
     },
     "Worklogs": {
       "children": [],
-      "sortOrder": "custom"
-    },
-    "游戏留学中介": {
-      "children": [
-        "游戏留学中介/短视频脚本1.md"
-      ],
       "sortOrder": "custom"
     }
   },

@@ -8,9 +8,8 @@
   "obsidian-tasks-plugin",
   "templater-obsidian",
   "obsidian42-brat",
-  "claudian",
-  "mermaid-tools",
   "manual-sorting",
   "sheet-plus",
-  "obsidian-excel-to-markdown-table"
+  "obsidian-excel-to-markdown-table",
+  "claudian"
 ]
