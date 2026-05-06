@@ -19,12 +19,14 @@
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
-  "locale": "en",
+  "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
       "cliPath": "",
-      "cliPathsByHost": {},
+      "cliPathsByHost": {
+        "DESKTOP-DHOC85G": "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+      },
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
@@ -40,11 +42,13 @@
       "safeMode": "workspace-write",
       "cliPath": "",
       "cliPathsByHost": {},
+      "customModels": "",
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
       "installationMethodsByHost": {
-        "ISAACXIA-PC1": "native-windows"
+        "ISAACXIA-PC1": "native-windows",
+        "DESKTOP-DHOC85G": "native-windows"
       },
       "wslDistroOverridesByHost": {}
     }
@@ -59,6 +63,9 @@
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
     "claude": "off"
+  },
+  "savedProviderPermissionMode": {
+    "claude": "yolo"
   },
   "lastCustomModel": "",
   "maxTabs": 3,

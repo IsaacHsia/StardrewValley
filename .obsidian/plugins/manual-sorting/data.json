@@ -2,14 +2,13 @@
   "customOrder": {
     "/": {
       "children": [
+        "自媒体",
+        "星露谷物语：重生之我在江南当龙鸣",
         "游戏留学中介",
         "设计思路",
         "attachment",
-        "Projects",
         "raw",
         "Wiki",
-        "Wiki-inbox",
-        "Worklogs",
         "模拟器UI设想.pptx",
         "CLAUDE.md"
       ],
@@ -29,9 +28,66 @@
       ],
       "sortOrder": "custom"
     },
+    "星露谷物语：重生之我在江南当龙鸣": {
+      "children": [
+        "星露谷物语：重生之我在江南当龙鸣/项目规划",
+        "星露谷物语：重生之我在江南当龙鸣/attachment",
+        "星露谷物语：重生之我在江南当龙鸣/ideas【选题灵感】",
+        "星露谷物语：重生之我在江南当龙鸣/Obsidian Instructions 【使用说明】",
+        "星露谷物语：重生之我在江南当龙鸣/Reference 【参考内容】",
+        "星露谷物语：重生之我在江南当龙鸣/templates"
+      ],
+      "sortOrder": "custom"
+    },
+    "星露谷物语：重生之我在江南当龙鸣/项目规划": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "星露谷物语：重生之我在江南当龙鸣/attachment": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "星露谷物语：重生之我在江南当龙鸣/ideas【选题灵感】": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "星露谷物语：重生之我在江南当龙鸣/Obsidian Instructions 【使用说明】": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "星露谷物语：重生之我在江南当龙鸣/Reference 【参考内容】": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "星露谷物语：重生之我在江南当龙鸣/templates": {
+      "children": [],
+      "sortOrder": "custom"
+    },
     "游戏留学中介": {
       "children": [
-        "游戏留学中介/短视频脚本1.md"
+        "游戏留学中介/文稿",
+        "游戏留学中介/脚本"
+      ],
+      "sortOrder": "custom"
+    },
+    "游戏留学中介/脚本": {
+      "children": [
+        "游戏留学中介/脚本/游戏行业能遇到的同事类型脚本.md",
+        "游戏留学中介/脚本/国内独游策划 vs 国外独游策划脚本.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "游戏留学中介/文稿": {
+      "children": [
+        "游戏留学中介/文稿/触乐采访：喜欢的游戏和赚钱的游戏，选哪个.md",
+        "游戏留学中介/文稿/杀戮尖塔2改动之殇：策划眼中的底层思路错位.md",
+        "游戏留学中介/文稿/峰回路转：从经济学到游戏策划工位.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "自媒体": {
+      "children": [
+        "自媒体/未命名.md"
       ],
       "sortOrder": "custom"
     },
@@ -42,14 +98,9 @@
       ],
       "sortOrder": "custom"
     },
-    "Projects": {
-      "children": [],
-      "sortOrder": "custom"
-    },
     "raw": {
       "children": [
-        "raw/assets",
-        "raw/sources"
+        "raw/assets"
       ],
       "sortOrder": "custom"
     },
@@ -60,20 +111,12 @@
       ],
       "sortOrder": "custom"
     },
-    "raw/sources": {
-      "children": [],
-      "sortOrder": "custom"
-    },
     "Wiki": {
       "children": [
         "Wiki/tech-ai-cli-game-dev",
         "Wiki/_templates",
         "Wiki/dashboards",
-        "Wiki/process-",
-        "Wiki/project-",
         "Wiki/synthesis",
-        "Wiki/team-",
-        "Wiki/tech-",
         "Wiki/index.md",
         "Wiki/log.md"
       ],
@@ -93,40 +136,16 @@
       ],
       "sortOrder": "custom"
     },
-    "Wiki/process-": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Wiki/project-": {
-      "children": [],
-      "sortOrder": "custom"
-    },
     "Wiki/synthesis": {
       "children": [
         "Wiki/synthesis/index.md"
       ],
       "sortOrder": "custom"
     },
-    "Wiki/team-": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Wiki/tech-": {
-      "children": [],
-      "sortOrder": "custom"
-    },
     "Wiki/tech-ai-cli-game-dev": {
       "children": [
         "Wiki/tech-ai-cli-game-dev/README.md"
       ],
-      "sortOrder": "custom"
-    },
-    "Wiki-inbox": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Worklogs": {
-      "children": [],
       "sortOrder": "custom"
     }
   },
