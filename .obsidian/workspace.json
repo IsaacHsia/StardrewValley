@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "设计思路/策划需求案.md",
+                "file": "Wiki/log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "策划需求案"
+              "title": "log"
             }
           },
           {
@@ -34,35 +34,97 @@
               "icon": "lucide-file",
               "title": "README"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "ffeb554242557ec7",
+        "type": "tabs",
+        "children": [
           {
-            "id": "2deea1107030d794",
+            "id": "348b20e577a75df9",
             "type": "leaf",
             "state": {
-              "type": "excel-pro-view",
+              "type": "excalidraw",
               "state": {
-                "file": "游戏留学中介/脚本/游戏行业能遇到的同事类型脚本.md"
+                "file": "设计思路/结算流程.md"
               },
-              "icon": "lucide-file",
-              "title": "游戏行业能遇到的同事类型脚本"
+              "icon": "excalidraw-icon",
+              "title": "结算流程"
             }
           },
           {
-            "id": "0fa37cc7c0e93b4f",
+            "id": "4f72553258f4dd97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏留学中介/文稿/触乐采访：喜欢的游戏和赚钱的游戏，选哪个.md",
+                "file": "设计思路/策划需求案.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "触乐采访：喜欢的游戏和赚钱的游戏，选哪个"
+              "title": "策划需求案"
+            }
+          },
+          {
+            "id": "5de438a28cc63489",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "游戏留学中介/文稿/这就是杀戮尖塔2引以为傲的数据驱动吗.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "这就是杀戮尖塔2引以为傲的数据驱动吗"
+            }
+          },
+          {
+            "id": "08a594a7c3beb5fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "设计思路/Demo设计.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Demo设计"
+            }
+          },
+          {
+            "id": "a74458df17b2deea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "设计思路/牌堆运作.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "牌堆运作"
+            }
+          },
+          {
+            "id": "71d2c083e251dbd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "设计思路/战斗计算公式.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "战斗计算公式"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -261,19 +323,21 @@
       "sheet-plus:创建 Excel 文件": false
     }
   },
-  "active": "0fa37cc7c0e93b4f",
+  "active": "5de438a28cc63489",
   "lastOpenFiles": [
-    "游戏留学中介/文稿/杀戮尖塔2改动之殇：策划眼中的底层思路错位.md",
-    "游戏留学中介/文稿/触乐采访：喜欢的游戏和赚钱的游戏，选哪个.md",
-    "游戏留学中介/文稿/峰回路转：从经济学到游戏策划工位.md",
-    "游戏留学中介/脚本/游戏行业能遇到的同事类型脚本.md",
-    "游戏留学中介/文稿",
-    "自媒体/未命名.md",
-    "游戏留学中介/脚本",
-    "自媒体",
-    "游戏留学中介/脚本/国内独游策划 vs 国外独游策划脚本.md",
     "raw/assets/AI CLI使用方案.md",
-    "游戏留学中介/短视频脚本1 1.md",
+    "游戏留学中介/文稿/这就是杀戮尖塔2引以为傲的数据驱动吗.md",
+    "Wiki/log.md",
+    "设计思路/策划需求案.md",
+    "自媒体/未命名.md",
+    "自媒体",
+    "游戏留学中介/脚本/游戏行业能遇到的同事类型脚本.md",
+    "游戏留学中介/脚本/国内独游策划 vs 国外独游策划脚本.md",
+    "游戏留学中介/脚本",
+    "游戏留学中介/文稿/触乐采访：喜欢的游戏和赚钱的游戏，选哪个.md",
+    "游戏留学中介/文稿/杀戮尖塔2改动之殇：策划眼中的底层思路错位.md",
+    "游戏留学中介/文稿/峰回路转：从经济学到游戏策划工位.md",
+    "游戏留学中介/文稿",
     "raw/assets/B站UP主“抵抗Resistance”风格视频制作指南.md",
     "Wiki/tech-ai-cli-game-dev/README.md",
     "Wiki/_templates/概念页模板.md",
@@ -283,20 +347,18 @@
     "Wiki/synthesis/index.md",
     "Wiki/tech-ai-cli-game-dev",
     "Wiki/index.md",
-    "Wiki/log.md",
     "Wiki/index.md.tmp.63492.1777450297914",
+    "游戏留学中介/短视频脚本1.md",
     "attachment/Pasted Image 20260409172647_420.png",
     "attachment/Pasted Image 20260409172703_503.png",
     "游戏留学中介",
     "设计思路/Demo设想.md",
-    "设计思路/策划需求案.md",
     "设计思路/AI需求描述.md",
     "设计思路/结算流程.md",
     "设计思路/Demo设计.md",
     "设计思路/UI层级.md",
     "设计思路/牌堆运作.md",
     "设计思路/游戏玩法框架思路.md",
-    "设计思路/战斗计算公式.md",
     "模拟器UI设想.pptx",
     "~$模拟器UI设想.pptx",
     "error3.png",
