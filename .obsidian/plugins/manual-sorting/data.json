@@ -2,6 +2,7 @@
   "customOrder": {
     "/": {
       "children": [
+        "桌面自定义宠物",
         "自媒体",
         "星露谷物语：重生之我在江南当龙鸣",
         "游戏留学中介",
@@ -83,6 +84,18 @@
         "游戏留学中介/文稿/触乐采访：喜欢的游戏和赚钱的游戏，选哪个.md",
         "游戏留学中介/文稿/杀戮尖塔2改动之殇：策划眼中的底层思路错位.md",
         "游戏留学中介/文稿/峰回路转：从经济学到游戏策划工位.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "桌面自定义宠物": {
+      "children": [
+        "桌面自定义宠物/项目需求.md",
+        "桌面自定义宠物/phase_4_live_ops.md",
+        "桌面自定义宠物/phase_3_multi_pet_home.md",
+        "桌面自定义宠物/phase_2_experience.md",
+        "桌面自定义宠物/phase_1_mvp.md",
+        "桌面自定义宠物/phase_0_prototype.md",
+        "桌面自定义宠物/00_project_overview.md"
       ],
       "sortOrder": "custom"
     },

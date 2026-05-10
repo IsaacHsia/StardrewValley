@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "游戏留学中介/文稿/mod大佬制作数据收集网站，看看杀戮尖塔2的数据驱动平衡补丁是否合理.md",
+                "file": "桌面自定义宠物/phase_0_prototype.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mod大佬制作数据收集网站，看看杀戮尖塔2的数据驱动平衡补丁是否合理"
+              "title": "phase_0_prototype"
             }
           },
           {
@@ -311,10 +311,18 @@
   },
   "active": "08a594a7c3beb5fb",
   "lastOpenFiles": [
+    "桌面自定义宠物/phase_0_prototype.md",
+    "桌面自定义宠物/00_project_overview.md",
+    "桌面自定义宠物/项目需求.md",
+    "桌面自定义宠物/phase_4_live_ops.md",
+    "桌面自定义宠物/phase_3_multi_pet_home.md",
+    "桌面自定义宠物/phase_2_experience.md",
+    "桌面自定义宠物/phase_1_mvp.md",
     "游戏留学中介/文稿/mod大佬制作数据收集网站，看看杀戮尖塔2的数据驱动平衡补丁是否合理.md",
+    "桌面自定义宠物",
+    "游戏留学中介/文稿/杀戮尖塔2改动之殇：策划眼中的底层思路错位.md",
     "attachment/Pasted Image 20260409172703_503.png",
     "attachment/Pasted Image 20260409172647_420.png",
-    "游戏留学中介/文稿/杀戮尖塔2改动之殇：策划眼中的底层思路错位.md",
     "Wiki/log.md",
     "设计思路/Demo设计.md",
     "游戏留学中介/文稿/触乐采访：喜欢的游戏和赚钱的游戏，选哪个.md",
@@ -340,20 +348,13 @@
     "Wiki/tech-ai-cli-game-dev",
     "Wiki/index.md",
     "Wiki/index.md.tmp.63492.1777450297914",
-    "游戏留学中介/短视频脚本1.md",
     "游戏留学中介",
-    "设计思路/Demo设想.md",
-    "设计思路/AI需求描述.md",
-    "设计思路/结算流程.md",
-    "设计思路/UI层级.md",
-    "设计思路/牌堆运作.md",
     "模拟器UI设想.pptx",
     "~$模拟器UI设想.pptx",
     "error3.png",
     "error2.png",
     "error_screenshot.png",
     "Wiki/_templates",
-    "raw/sources",
     "设计思路/未命名.canvas"
   ]
 }
