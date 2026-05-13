@@ -89,7 +89,6 @@
     },
     "桌面自定义宠物": {
       "children": [
-        "桌面自定义宠物/项目需求.md",
         "桌面自定义宠物/phase_4_live_ops.md",
         "桌面自定义宠物/phase_3_multi_pet_home.md",
         "桌面自定义宠物/phase_2_experience.md",
