@@ -19,13 +19,14 @@
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
+  "requireCommandOrControlEnterToSend": false,
   "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {
-        "DESKTOP-DHOC85G": "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+        "device:874fc0df-ad27-42c7-81d3-aa9c99c1c646": "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
       },
       "loadUserSettings": true,
       "enableChrome": false,
@@ -48,9 +49,20 @@
       "environmentHash": "",
       "installationMethodsByHost": {
         "ISAACXIA-PC1": "native-windows",
-        "DESKTOP-DHOC85G": "native-windows"
+        "device:874fc0df-ad27-42c7-81d3-aa9c99c1c646": "native-windows"
       },
       "wslDistroOverridesByHost": {}
+    },
+    "opencode": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "selectedMode": "",
+      "visibleModels": []
     }
   },
   "settingsProvider": "claude",

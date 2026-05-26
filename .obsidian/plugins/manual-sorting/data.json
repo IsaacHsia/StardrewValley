@@ -2,11 +2,13 @@
   "customOrder": {
     "/": {
       "children": [
+        "rsj_training_output",
+        "scripts",
         "桌面自定义宠物",
         "自媒体",
         "星露谷物语：重生之我在江南当龙鸣",
         "游戏留学中介",
-        "设计思路",
+        "文游+Rogue卡牌",
         "attachment",
         "raw",
         "Wiki",
@@ -15,17 +17,17 @@
       ],
       "sortOrder": "custom"
     },
-    "设计思路": {
+    "文游+Rogue卡牌": {
       "children": [
-        "设计思路/策划需求案.md",
-        "设计思路/结算流程.md",
-        "设计思路/牌堆运作.md",
-        "设计思路/游戏玩法框架思路.md",
-        "设计思路/战斗计算公式.md",
-        "设计思路/AI需求描述.md",
-        "设计思路/Demo设计.md",
-        "设计思路/Demo设想.md",
-        "设计思路/UI层级.md"
+        "文游+Rogue卡牌/策划需求案.md",
+        "文游+Rogue卡牌/结算流程.md",
+        "文游+Rogue卡牌/牌堆运作.md",
+        "文游+Rogue卡牌/游戏玩法框架思路.md",
+        "文游+Rogue卡牌/战斗计算公式.md",
+        "文游+Rogue卡牌/AI需求描述.md",
+        "文游+Rogue卡牌/Demo设计.md",
+        "文游+Rogue卡牌/Demo设想.md",
+        "文游+Rogue卡牌/UI层级.md"
       ],
       "sortOrder": "custom"
     },
@@ -124,6 +126,21 @@
         "raw/assets/Pasted image 20260508222533.png",
         "raw/assets/AI CLI使用方案.md",
         "raw/assets/B站UP主“抵抗Resistance”风格视频制作指南.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "rsj_training_output": {
+      "children": [
+        "rsj_training_output/institutions.csv",
+        "rsj_training_output/institutions_with_projects.json",
+        "rsj_training_output/institutions_with_projects.partial.json",
+        "rsj_training_output/projects.csv"
+      ],
+      "sortOrder": "custom"
+    },
+    "scripts": {
+      "children": [
+        "scripts/crawl_sh_rsj_training.js"
       ],
       "sortOrder": "custom"
     },
