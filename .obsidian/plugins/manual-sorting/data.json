@@ -2,6 +2,8 @@
   "customOrder": {
     "/": {
       "children": [
+        "A股",
+        "未命名.md",
         "rsj_training_output",
         "scripts",
         "桌面自定义宠物",
@@ -104,6 +106,10 @@
       "children": [
         "自媒体/未命名.md"
       ],
+      "sortOrder": "custom"
+    },
+    "A股": {
+      "children": [],
       "sortOrder": "custom"
     },
     "attachment": {
