@@ -1,8 +1,8 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "haiku",
-  "thinkingBudget": "off",
+  "model": "deepseek-v4-pro[1m]",
+  "thinkingBudget": "xhigh",
   "effortLevel": "high",
   "serviceTier": "default",
   "enableAutoTitleGeneration": true,
@@ -12,14 +12,21 @@
   "systemPrompt": "",
   "persistentExternalContextPaths": [],
   "sharedEnvironmentVariables": "",
-  "envSnippets": [],
+  "envSnippets": [
+    {
+      "id": "snippet-1779893498260",
+      "name": "Deepseek",
+      "description": "",
+      "envVars": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nANTHROPIC_AUTH_TOKEN=sk-59adb8b58c45488897be01a9ceffb90f\nANTHROPIC_API_KEY=sk-59adb8b58c45488897be01a9ceffb90f\nANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro[1m]\nANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-pro[1m]\nANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-v4-flash\nCLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash\n",
+      "scope": "provider:claude"
+    }
+  ],
   "customContextLimits": {},
   "keyboardNavigation": {
     "scrollUpKey": "w",
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
-  "requireCommandOrControlEnterToSend": false,
   "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
@@ -35,8 +42,8 @@
       "enableSonnet1M": false,
       "customModels": "",
       "lastModel": "haiku",
-      "environmentVariables": "",
-      "environmentHash": ""
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nANTHROPIC_AUTH_TOKEN=sk-59adb8b58c45488897be01a9ceffb90f\nANTHROPIC_API_KEY=sk-59adb8b58c45488897be01a9ceffb90f\nANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro[1m]\nANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-pro[1m]\nANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-v4-flash\nCLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash\n",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic|ANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-v4-flash|ANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro[1m]|ANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-pro[1m]"
     },
     "codex": {
       "enabled": false,
@@ -49,7 +56,8 @@
       "environmentHash": "",
       "installationMethodsByHost": {
         "ISAACXIA-PC1": "native-windows",
-        "device:874fc0df-ad27-42c7-81d3-aa9c99c1c646": "native-windows"
+        "device:874fc0df-ad27-42c7-81d3-aa9c99c1c646": "native-windows",
+        "DESKTOP-DHOC85G": "native-windows"
       },
       "wslDistroOverridesByHost": {}
     },
@@ -67,23 +75,24 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "haiku"
+    "claude": "deepseek-v4-pro[1m]"
   },
   "savedProviderEffort": {
     "claude": "high"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "off"
+    "claude": "xhigh"
   },
   "savedProviderPermissionMode": {
     "claude": "yolo"
   },
-  "lastCustomModel": "",
+  "lastCustomModel": "deepseek-v4-pro[1m]",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
   "deferMathRenderingDuringStreaming": true,
   "chatViewPlacement": "right-sidebar",
-  "hiddenProviderCommands": {}
+  "hiddenProviderCommands": {},
+  "requireCommandOrControlEnterToSend": false
 }
