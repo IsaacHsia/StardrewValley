@@ -34,8 +34,23 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "fcbe2b42c5b6f9d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "A股/每日收盘开盘分析.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "每日收盘开盘分析"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "ffeb554242557ec7",
@@ -309,9 +324,21 @@
       "sheet-plus:创建 Excel 文件": false
     }
   },
-  "active": "08a594a7c3beb5fb",
+  "active": "fcbe2b42c5b6f9d5",
   "lastOpenFiles": [
+    "A股",
     "桌面自定义宠物/phase_0_prototype.md",
+    "A股/每日收盘开盘分析.md",
+    "rsj_training_output/institutions_with_projects.partial.json",
+    "rsj_training_output_test2/projects.csv",
+    "rsj_training_output_test2/institutions.csv",
+    "rsj_training_output_test2/institutions_with_projects.json",
+    "rsj_training_output_test2",
+    "rsj_training_output/projects.csv",
+    "rsj_training_output/institutions.csv",
+    "rsj_training_output/institutions_with_projects.json",
+    "rsj_training_output",
+    "rsj_training_output_test/projects.csv",
     "桌面自定义宠物/00_project_overview.md",
     "桌面自定义宠物/项目需求.md",
     "桌面自定义宠物/phase_4_live_ops.md",
@@ -319,42 +346,30 @@
     "桌面自定义宠物/phase_2_experience.md",
     "桌面自定义宠物/phase_1_mvp.md",
     "游戏留学中介/文稿/mod大佬制作数据收集网站，看看杀戮尖塔2的数据驱动平衡补丁是否合理.md",
-    "桌面自定义宠物",
     "游戏留学中介/文稿/杀戮尖塔2改动之殇：策划眼中的底层思路错位.md",
     "attachment/Pasted Image 20260409172703_503.png",
     "attachment/Pasted Image 20260409172647_420.png",
     "Wiki/log.md",
-    "设计思路/Demo设计.md",
+    "文游+Rogue卡牌/Demo设计.md",
     "游戏留学中介/文稿/触乐采访：喜欢的游戏和赚钱的游戏，选哪个.md",
     "raw/assets/Pasted image 20260508223220.png",
     "raw/assets/Pasted image 20260508222722.png",
     "raw/assets/Pasted image 20260508222533.png",
     "raw/assets/AI CLI使用方案.md",
-    "设计思路/策划需求案.md",
+    "文游+Rogue卡牌/策划需求案.md",
     "自媒体/未命名.md",
-    "自媒体",
     "游戏留学中介/脚本/游戏行业能遇到的同事类型脚本.md",
     "游戏留学中介/脚本/国内独游策划 vs 国外独游策划脚本.md",
-    "游戏留学中介/脚本",
     "游戏留学中介/文稿/峰回路转：从经济学到游戏策划工位.md",
-    "游戏留学中介/文稿",
     "raw/assets/B站UP主“抵抗Resistance”风格视频制作指南.md",
     "Wiki/tech-ai-cli-game-dev/README.md",
     "Wiki/_templates/概念页模板.md",
     "Wiki/_templates/实体页模板.md",
     "Wiki/_templates/技术页模板.md",
     "Wiki/dashboards/index.md",
-    "Wiki/synthesis/index.md",
-    "Wiki/tech-ai-cli-game-dev",
-    "Wiki/index.md",
-    "Wiki/index.md.tmp.63492.1777450297914",
-    "游戏留学中介",
-    "模拟器UI设想.pptx",
-    "~$模拟器UI设想.pptx",
     "error3.png",
     "error2.png",
     "error_screenshot.png",
-    "Wiki/_templates",
     "设计思路/未命名.canvas"
   ]
 }
