@@ -22,11 +22,13 @@
     }
   ],
   "customContextLimits": {},
+  "customModelAliases": {},
   "keyboardNavigation": {
     "scrollUpKey": "w",
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
+  "requireCommandOrControlEnterToSend": false,
   "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
@@ -55,9 +57,9 @@
       "environmentVariables": "",
       "environmentHash": "",
       "installationMethodsByHost": {
-        "ISAACXIA-PC1": "native-windows",
         "device:874fc0df-ad27-42c7-81d3-aa9c99c1c646": "native-windows",
-        "DESKTOP-DHOC85G": "native-windows"
+        "DESKTOP-DHOC85G": "native-windows",
+        "device:ed0cb079-65b7-4aa0-8668-bdd5289011b2": "native-windows"
       },
       "wslDistroOverridesByHost": {}
     },
@@ -70,6 +72,19 @@
       "modelAliases": {},
       "preferredThinkingByModel": {},
       "selectedMode": "",
+      "thinkingOptionsByModel": {},
+      "visibleModels": []
+    },
+    "pi": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "discoveredModels": [],
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "toolMode": "all",
       "visibleModels": []
     }
   },
@@ -93,6 +108,5 @@
   "enableAutoScroll": true,
   "deferMathRenderingDuringStreaming": true,
   "chatViewPlacement": "right-sidebar",
-  "hiddenProviderCommands": {},
-  "requireCommandOrControlEnterToSend": false
+  "hiddenProviderCommands": {}
 }
