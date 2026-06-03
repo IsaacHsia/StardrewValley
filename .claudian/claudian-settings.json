@@ -1,0 +1,98 @@
+{
+  "userName": "",
+  "permissionMode": "yolo",
+  "model": "deepseek-v4-pro[1m]",
+  "thinkingBudget": "xhigh",
+  "effortLevel": "high",
+  "serviceTier": "default",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationModel": "",
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "persistentExternalContextPaths": [],
+  "sharedEnvironmentVariables": "",
+  "envSnippets": [
+    {
+      "id": "snippet-1779893498260",
+      "name": "Deepseek",
+      "description": "",
+      "envVars": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nANTHROPIC_AUTH_TOKEN=sk-59adb8b58c45488897be01a9ceffb90f\nANTHROPIC_API_KEY=sk-59adb8b58c45488897be01a9ceffb90f\nANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro[1m]\nANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-pro[1m]\nANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-v4-flash\nCLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash\n",
+      "scope": "provider:claude"
+    }
+  ],
+  "customContextLimits": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "locale": "zh-CN",
+  "providerConfigs": {
+    "claude": {
+      "safeMode": "acceptEdits",
+      "cliPath": "",
+      "cliPathsByHost": {
+        "device:874fc0df-ad27-42c7-81d3-aa9c99c1c646": "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+      },
+      "loadUserSettings": true,
+      "enableChrome": false,
+      "enableBangBash": false,
+      "enableOpus1M": false,
+      "enableSonnet1M": false,
+      "customModels": "",
+      "lastModel": "haiku",
+      "environmentVariables": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic\nANTHROPIC_AUTH_TOKEN=sk-59adb8b58c45488897be01a9ceffb90f\nANTHROPIC_API_KEY=sk-59adb8b58c45488897be01a9ceffb90f\nANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro[1m]\nANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-pro[1m]\nANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-v4-flash\nCLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash\n",
+      "environmentHash": "ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic|ANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-v4-flash|ANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro[1m]|ANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-pro[1m]"
+    },
+    "codex": {
+      "enabled": false,
+      "safeMode": "workspace-write",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "customModels": "",
+      "reasoningSummary": "detailed",
+      "environmentVariables": "",
+      "environmentHash": "",
+      "installationMethodsByHost": {
+        "ISAACXIA-PC1": "native-windows",
+        "device:874fc0df-ad27-42c7-81d3-aa9c99c1c646": "native-windows",
+        "DESKTOP-DHOC85G": "native-windows"
+      },
+      "wslDistroOverridesByHost": {}
+    },
+    "opencode": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "selectedMode": "",
+      "visibleModels": []
+    }
+  },
+  "settingsProvider": "claude",
+  "savedProviderModel": {
+    "claude": "deepseek-v4-pro[1m]"
+  },
+  "savedProviderEffort": {
+    "claude": "high"
+  },
+  "savedProviderServiceTier": {},
+  "savedProviderThinkingBudget": {
+    "claude": "xhigh"
+  },
+  "savedProviderPermissionMode": {
+    "claude": "yolo"
+  },
+  "lastCustomModel": "deepseek-v4-pro[1m]",
+  "maxTabs": 3,
+  "tabBarPosition": "input",
+  "enableAutoScroll": true,
+  "deferMathRenderingDuringStreaming": true,
+  "chatViewPlacement": "right-sidebar",
+  "hiddenProviderCommands": {},
+  "requireCommandOrControlEnterToSend": false
+}

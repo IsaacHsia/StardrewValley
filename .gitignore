@@ -1,5 +1,2 @@
-# Obsidian
-.claudian/
-.obsidian/plugins/claudian/
-.obsidian/plugins/realclaudian/
-.obsidian/plugins/manual-sorting/
+.obsidian/workspace.json
+.obsidian/plugins/

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1778554307749-fdrv4j752",
+  "providerId": "claude",
+  "title": "好的，这是一个简短的问候，我建议将对话标题设为：\n\n**\"首次中文问候\"**",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778554307750,
+  "updatedAt": 1778554369610,
+  "lastResponseAt": 1778554369610,
+  "sessionId": "d12c1980-e055-4ceb-830f-ec161905c311",
+  "providerState": {
+    "providerSessionId": "d12c1980-e055-4ceb-830f-ec161905c311"
+  },
+  "currentNote": "游戏留学中介/文稿/这就是杀戮尖塔2引以为傲的数据驱动吗.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 141,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 16768,
+    "contextWindow": 200000,
+    "contextTokens": 16909,
+    "percentage": 8,
+    "contextWindowIsAuthoritative": true
+  }
+}
