@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780243329741-45fl54t3i",
+  "providerId": "claude",
+  "title": "Set Up Bollinger Bands in Tonghuashun",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780243329741,
+  "updatedAt": 1780243366685,
+  "lastResponseAt": 1780243366685,
+  "sessionId": "6efed113-2b1a-42e4-a2f1-07b96b4f8b87",
+  "providerState": {
+    "providerSessionId": "6efed113-2b1a-42e4-a2f1-07b96b4f8b87"
+  },
+  "usage": {
+    "model": "deepseek-v4-pro[1m]",
+    "inputTokens": 1064,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30336,
+    "contextWindow": 1000000,
+    "contextTokens": 31400,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
