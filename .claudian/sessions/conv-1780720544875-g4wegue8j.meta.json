@@ -1,0 +1,26 @@
+{
+  "id": "conv-1780720544875-g4wegue8j",
+  "providerId": "claude",
+  "title": "Insert files into Obsidian Wiki",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780720544875,
+  "updatedAt": 1780721193801,
+  "lastResponseAt": 1780721193801,
+  "sessionId": "e88fd963-c257-4d1e-9a5e-50ebbb74d006",
+  "providerState": {
+    "providerSessionId": "e88fd963-c257-4d1e-9a5e-50ebbb74d006"
+  },
+  "externalContextPaths": [
+    "D:\\OneDrive\\Private\\量化交易\\赛博青哥wiki"
+  ],
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 2016,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 70016,
+    "contextWindow": 200000,
+    "contextTokens": 72032,
+    "percentage": 36,
+    "contextWindowIsAuthoritative": true
+  }
+}
