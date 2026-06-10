@@ -33,23 +33,35 @@ BLOGGER_MID = "1420210197"
 BLOGGER_NAME = "青枫浦上Q"
 SCRIPT_DIR = Path(__file__).resolve().parent
 OUTPUT_DIR = SCRIPT_DIR.parent / "Raw"
-AUDIO_DIR = Path("D:/bili_videos")  # 视频音频永久存放目录
+# 项目本地目录（模型 + 音频缓存）
+PROJECT_DATA_DIR = SCRIPT_DIR.parent / "data_cache"
+WHISPER_MODEL_DIR = PROJECT_DATA_DIR / "whisper_models"
+AUDIO_DIR = PROJECT_DATA_DIR / "audio_cache"
+
+# 确保目录存在
+WHISPER_MODEL_DIR.mkdir(parents=True, exist_ok=True)
+AUDIO_DIR.mkdir(parents=True, exist_ok=True)
+
+# 设置 faster-whisper 从本地读模型
+os.environ["HF_HOME"] = str(WHISPER_MODEL_DIR)
+os.environ["XDG_CACHE_HOME"] = str(PROJECT_DATA_DIR)
 
 # Cookie (用于下载充电视频)
 FULL_COOKIE = (
-    "buvid3=7B36AD4F-0560-79FB-094D-9E06CF0E002524709infoc; "
-    "b_nut=1778164324; "
-    "buvid4=149C3D4A-88F3-EBD8-1CCE-F3CC3B52040826257-026050722-BOuc+wvORwUICZlG0OQidA%3D%3D; "
-    "DedeUserID=394017627; bili_jct=7fd2089d1f79660d69b2de2fcf61410f; "
-    "sid=7t8j56qr; b_lsid=ED05D6FB_19E81B5670C; "
-    "bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9."
-    "eyJleHAiOjE3ODA1MzQxNjEsImlhdCI6MTc4MDI3NDkwMSwicGx0IjotMX0."
-    "GODIr77Gqg6Jkmu91MD5z_1b7de33YZucAhO_l6iPhM; "
-    "bili_ticket_expires=1780534101; "
-    "SESSDATA=8fc22bdd%2C1795826963%2Cc0dea%2A61CjBLmcrvuCoOLMP9nSzP6Z"
-    "XIejwY5ex2lpLbmVwkANmZ8m4UVB5VOMHEGra1Jxk9t2ISVmxXV3ZJM2tJYjFpTjU1N2"
-    "xDRkp2TmFLWHdrcVZ5WW4wX2gyUGY0d09OTk4xcmFJQm9rT0hZN195anBrYnJmWGxpaF"
-    "dDaG9kNXVvVHNwODNCVlZ3dmdBIIEC; "
+    "buvid3=538AAE58-0AE6-B74C-6D0D-55EF7963C90949209infoc; "
+    "buvid4=AF6EA88B-3538-7A5A-AE17-B3D6E60D29D300732-024082307-eOG0/tQF1hv9igYzmzfbag%3D%3D; "
+    "buvid_fp=8e5df3c36755fe4503e374bd8c41f2a2; "
+    "_uuid=F310E5691-910D8-9322-DA96-C45DC2C8DED249248infoc; "
+    "b_nut=1755951549; "
+    "home_feed_column=5; "
+    "browser_resolution=1997-1316; "
+    "SESSDATA=cc31cab0%2C1796434118%2C08434%2A62CjCNDbS374AFsw8juD2uv-OaWCUcl_j0sk3wwavIRgyHxYoqyetSjCD5VWH35nwz36ESVmdHVnlaS05CeEpOSk84aEVUYllDVFhVN2FWSHA4QkQ2amw1dFhpSF9IUzRPdC15NDBaNG5BUFQ3WTlfVnNqNW01RjA1bE9rb3lMTGlkMjVFUDgyYXZBIIEC; "
+    "bili_jct=1cc1f8a2eda58e3352a7d5e617604a4e; "
+    "DedeUserID=1946575; "
+    "DedeUserID__ckMd5=48bf96f4ad2edc18; "
+    "sid=5bvydf4r; "
+    "CURRENT_FNVAL=4048; "
+    "b_lsid=0582ABDB_19EA7C106B0"
 )
 
 # Whisper 模型: tiny / base / small / medium / large
@@ -232,7 +244,8 @@ def transcribe_audio(audio_path, model_name="small"):
     device = "cuda" if _has_cuda() else "cpu"
     compute_type = "float16" if device == "cuda" else "int8"
 
-    model = WhisperModel(model_name, device=device, compute_type=compute_type)
+    model = WhisperModel(model_name, device=device, compute_type=compute_type,
+                         download_root=str(WHISPER_MODEL_DIR))
 
     print(f"    转录中 (设备: {device})...")
     segments, info = model.transcribe(
