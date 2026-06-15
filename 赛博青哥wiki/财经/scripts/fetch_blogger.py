@@ -1,20 +1,10 @@
 #!/usr/bin/env python3
-"""
-抓取B站UP主「青枫浦上Q」充电专属内容 — 最终版
-两步法: 列表API获取ID → opus页面获取完整正文(兼容纯文本和富文本两种格式)
-
-用法:
-    python fetch_blogger.py                    # 增量抓取
-    python fetch_blogger.py --from 2026-05-14  # 指定起始日期
-    python fetch_blogger.py --force            # 强制覆盖
-    python fetch_blogger.py --comments         # 抓取动态后也抓评论区（默认不抓）
-"""
+"""抓取B站UP主「青枫浦上Q」充电专属内容"""
 
 import requests, json, re, time, sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-# ============================================================
 BLOGGER_MID = "1420210197"
 BLOGGER_NAME = "青枫浦上Q"
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -28,12 +18,11 @@ FULL_COOKIE = (
     "b_nut=1755951549; "
     "home_feed_column=5; "
     "browser_resolution=1997-1316; "
-    "SESSDATA=cc31cab0%2C1796434118%2C08434%2A62CjCNDbS374AFsw8juD2uv-OaWCUcl_j0sk3wwavIRgyHxYoqyetSjCD5VWH35nwz36ESVmdHVnlaS05CeEpOSk84aEVUYllDVFhVN2FWSHA4QkQ2amw1dFhpSF9IUzRPdC15NDBaNG5BUFQ3WTlfVnNqNW01RjA1bE9rb3lMTGlkMjVFUDgyYXZBIIEC; "
+    "SESSDATA=8fc22bdd%2C1795826963%2Cc0dea%2A61CjBLmcrvuCoOLMP9nSzP6Z"
+    "XIejwY5ex2lpLbmVwkANmZ8m4UVB5VOMHEGra1Jxk9t2ISVmxXV3ZJM2tJYjFpTjU1N2"
+    "xDRkp2TmFLWHdrcVZ5WW4wX2gyUGY0d09OTk4xcmFJQm9rT0hZN195anBrYnJmWGxpaF"
+    "dDaG9kNXVvVHNwODNCVlZ3dmdBIIEC; "
     "bili_jct=1cc1f8a2eda58e3352a7d5e617604a4e; "
-    "bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9."
-    "eyJleHAiOjE3ODEwNjIwNDIsImlhdCI6MTc4MDgwMjc4MiwicGx0IjotMX0."
-    "2LN8dDKCCKgBorkpvED4T-8F3hIvChWPBc3szzOfQHw; "
-    "bili_ticket_expires=1781061982; "
     "DedeUserID=1946575; "
     "DedeUserID__ckMd5=48bf96f4ad2edc18; "
     "sid=5bvydf4r; "
@@ -52,7 +41,7 @@ def build_session():
             k, _, v = item.partition("=")
             if k and v: s.cookies.set(k.strip(), v.strip(), domain=".bilibili.com")
     s.headers.update({
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
         "Accept": "application/json, text/plain, */*",
         "Accept-Language": "zh-CN,zh;q=0.9",
         "Origin": "https://space.bilibili.com",
@@ -82,7 +71,6 @@ def extract_basic_info(item):
         title = a.get("title", ""); preview = a.get("desc", "") or a.get("dynamic", "")
 
     full_text = preview
-    text_from_opus = ""
     jump_opus_id = ""
     if major_type == "MAJOR_TYPE_OPUS":
         opus = major.get("opus", {})
@@ -90,32 +78,22 @@ def extract_basic_info(item):
         if jump_opus_id:
             jump_opus_id = jump_opus_id.split("/")[-1] if "/" in jump_opus_id else jump_opus_id
 
-    return {
-        "dy_id": dy_id,
-        "pub_ts": pub_ts,
-        "major_type": major_type,
-        "title": title,
-        "preview": preview,
-        "full_text": full_text,
-        "jump_opus_id": jump_opus_id,
-    }
+    return {"dy_id": dy_id, "pub_ts": pub_ts, "major_type": major_type,
+            "title": title, "preview": preview, "full_text": full_text, "jump_opus_id": jump_opus_id}
 
 
 def fetch_opus_detail(session, jump_opus_id):
-    if not jump_opus_id:
-        return ""
+    if not jump_opus_id: return ""
     try:
         url = f"https://api.bilibili.com/x/polymer/web-dynamic/v1/opus/detail?jump_opus_id={jump_opus_id}"
         r = session.get(url, timeout=15)
         data = r.json()
         item = data.get("data", {}).get("item", {})
-        if not item:
-            return ""
+        if not item: return ""
         modules = item.get("modules", {})
         content_module = modules.get("module_content", {})
         desc = content_module.get("desc", {})
-        text = desc.get("text", "")
-        return text
+        return desc.get("text", "")
     except Exception:
         return ""
 
@@ -126,26 +104,19 @@ def fetch_list(session, from_date, to_date):
     for page in range(20):
         params = {"host_mid": BLOGGER_MID, "offset": offset}
         r = session.get(SPACE_DYNAMIC_API, params=params, timeout=15)
-        if r.status_code != 200:
-            break
+        if r.status_code != 200: break
         data = r.json()
-        if data.get("code") != 0:
-            break
+        if data.get("code") != 0: break
         page_items = data.get("data", {}).get("items", [])
-        if not page_items:
-            break
+        if not page_items: break
         for item in page_items:
             info = extract_basic_info(item)
-            if info["pub_ts"] == 0:
-                continue
+            if info["pub_ts"] == 0: continue
             item_date = datetime.fromtimestamp(info["pub_ts"], tz=CST).date()
-            if item_date < from_date:
-                return items
-            if item_date <= to_date:
-                items.append(info)
+            if item_date < from_date: return items
+            if item_date <= to_date: items.append(info)
         has_more = data.get("data", {}).get("has_more", False)
-        if not has_more:
-            break
+        if not has_more: break
         offset = data.get("data", {}).get("offset", "")
         time.sleep(0.3)
     return items
@@ -168,8 +139,7 @@ def make_filename(info):
 
 def save_raw(fname, content):
     filepath = OUTPUT_DIR / fname
-    if filepath.exists():
-        return False
+    if filepath.exists(): return False
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(content)
@@ -190,7 +160,6 @@ def main():
         return
     print(f"[OK] 已登录: {uname}")
 
-    # 日期范围
     from_str = None
     force = False
     args = sys.argv[1:]
@@ -213,15 +182,12 @@ def main():
 
     print(f"[*] 日期: {from_date} ~ {to_date}")
 
-    # 第一步：列表
     items = fetch_list(session, from_date, to_date)
     if not items:
         print("  无新内容")
         return
-
     print(f"  [L1] 列表完成: {len(items)} 条")
 
-    # 第二步：opus详情
     opus_items = [it for it in items if it["jump_opus_id"]]
     print(f"\n  Step 2: opus页面获取完整正文 ({len(opus_items)} 条)")
     saved_count = 0; skipped = 0
@@ -242,17 +208,14 @@ def main():
             print(f" FALLBACK ({len(info['preview'])}字)")
         time.sleep(0.5)
 
-    # 处理非opus的items
     for info in items:
         if not info["jump_opus_id"]:
             info["full_text"] = info["preview"]
 
-    # 保存
     print()
     for info in items:
         fname = make_filename(info)
         pub_dt = datetime.fromtimestamp(info["pub_ts"], tz=CST)
-        dt_str = pub_dt.strftime("%Y-%m-%d %H:%M")
         title = info["title"] or "无标题"
         dy_id = info["dy_id"]
         ft = info["full_text"]
