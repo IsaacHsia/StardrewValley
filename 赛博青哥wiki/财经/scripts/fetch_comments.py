@@ -26,26 +26,38 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 RAW_DIR = SCRIPT_DIR.parent / "Raw"
 
 FULL_COOKIE = (
-    "buvid3=5A4AE357-7094-4AC6-F77B-9CCE8CC5D4FC01144infoc; "
-    "b_nut=1780460501; "
-    "__at_once=12052989268739625853; "
+    "enable_web_push=DISABLE; "
+    "enable_feed_channel=ENABLE; "
+    "buvid_fp=8e5df3c36755fe4503e374bd8c41f2a2; "
+    "header_theme_version=OPEN; "
+    "theme-tip-show=SHOWED; "
+    "theme-avatar-tip-show=SHOWED; "
+    "CURRENT_QUALITY=0; "
+    "DedeUserID=1946575; "
+    "DedeUserID__ckMd5=48bf96f4ad2edc18; "
+    "buvid3=538AAE58-0AE6-B74C-6D0D-55EF7963C90949209infoc; "
+    "b_nut=1755951549; "
+    "_uuid=F310E5691-910D8-9322-DA96-C45DC2C8DED249248infoc; "
+    "buvid4=AF6EA88B-3538-7A5A-AE17-B3D6E60D29D300732-024082307-eOG0/tQF1hv9igYzmzfbag%3D%3D; "
+    "hit-dyn-v2=1; "
+    "rpdid=|(umu)YJkmYR0J'u~l)ml~lkR; "
+    "LIVE_BUVID=AUTO9217606232442323; "
+    "PVID=1; "
+    "home_feed_column=5; "
+    "SESSDATA=afbd4f08%2C1797083348%2C61d70%2A62CjCIcGUdtCjkeS-YkstqSXFm"
+    "tJ0ln35QGIUYSC1Py6HnsQL4DUKNAuf2DqzF9DsPKCoSVnhzNTJkOUFWM0ZEeTZhSzZRZm"
+    "d1TjBmNDZQTl94SlMxajJORjNtWlVPZExEZUpYdUk5Z2FMWXVfemNySTBRTFc4VlE4S2p"
+    "LR25ZR1ZmN0JUMEp2aGh3IIEC; "
+    "bili_jct=3b0df5d2331aa2f84a7fd8b8e3b199f8; "
     "bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9."
-    "eyJleHAiOjE3ODA3MTk3MDIsImlhdCI6MTc4MDQ2MDQ0MiwicGx0IjotMX0."
-    "bTfjSVC61b4XUdJyRF-UpU4ohz9ziM1KnhlE1i339T4; "
-    "bili_ticket_expires=1780719642; "
-    "buvid_fp=344d4fed459195a8158177f9775d1788; "
-    "_uuid=68E10E1015-A15A-BF32-5AB3-C1C421E7E43B25055infoc; "
-    "home_feed_column=4; browser_resolution=1302-667; "
-    "buvid4=149C3D4A-88F3-EBD8-1CCE-F3CC3B52040826257-026050722-BOuc+wvORwUICZlG0OQidA%3D%3D; "
-    "SESSDATA=1aec3c3a%2C1796015003%2C8c802%2A62CjCLFaKDT6l0U6ifFrNxR6"
-    "Cq74Nyh6ZwmNlW9a5qK1C8bJdVH_mprj7c_0Wezs0pMCgSVkQ2UFF0YXZBQTlCbnlKT2"
-    "5xSjU2QUJaOUtQQkpNR0h5Q0hWclhEbGFyMTE5NTRWSlhfVGxBNVJWVjdzWUN0Q2hfYi"
-    "10bUZkU1JDcnh2bktVTFBNN3J3IIEC; "
-    "bili_jct=52d71ae9611dfe3d8013454fd6917246; "
-    "DedeUserID=394017627; DedeUserID__ckMd5=108d937a6940cb3d; "
-    "sid=7zf6fdj9; "
+    "eyJleHAiOjE3ODE2MTU0NDYsImlhdCI6MTc4MTM1NjE4NiwicGx0IjotMX0."
+    "7lkrW7NoNRslqq8StAFQ91-su_1gpMPuhW7FJL-7IGc; "
+    "bili_ticket_expires=1781615386; "
+    "bp_t_offset_1946575=1213956065079590912; "
     "CURRENT_FNVAL=2000; "
-    "b_lsid=51BC8061_19E8BDDB00E"
+    "sid=fv1vc0hg; "
+    "browser_resolution=1997-1316; "
+    "b_lsid=F5F06846_19ECB8B07CE"
 )
 
 REPLY_MAIN_API = "https://api.bilibili.com/x/v2/reply/wbi/main"
@@ -304,7 +316,6 @@ def process_file(session, filepath: Path) -> int:
     # 删除旧的评论区段落
     comment_start = content.find("\n## 评论区\n")
     if comment_start != -1:
-        # 找到评论区之后的 <!-- synced_comments 标记
         marker_after = content.find("<!-- synced_comments:", comment_start)
         if marker_after > 0:
             content = content[:comment_start] + content[marker_after:]
