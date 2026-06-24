@@ -1,0 +1,302 @@
+{
+  "main": {
+    "id": "6b14eb08c95b5736",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffeb554242557ec7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "348b20e577a75df9",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "设计思路/结算流程.md"
+              },
+              "icon": "lucide-ghost",
+              "title": "excalidraw"
+            }
+          },
+          {
+            "id": "4f72553258f4dd97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "设计思路/策划需求案.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "策划需求案"
+            }
+          },
+          {
+            "id": "08a594a7c3beb5fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "赛博青哥wiki/财经/Raw/早盘：26-06-22：早盘.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "早盘：26-06-22：早盘"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "820b6846f0494d4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "f26b70c1883f65ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "101cf2f185c2b72b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "custom",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "0aa97e4a7f09c2ec",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "d7de1eb77401e0b2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299.5
+  },
+  "right": {
+    "id": "adffdea28b7aac60",
+    "type": "split",
+    "children": [
+      {
+        "id": "5eaefbc932296f84",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4782014fee27ef4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "设计思路/Demo设想.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Demo设想 的反向链接列表"
+            }
+          },
+          {
+            "id": "ae845134a041b7d8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "设计思路/Demo设想.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Demo设想 的出链列表"
+            }
+          },
+          {
+            "id": "6883c23b91b0548e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "a94b798c939e43bc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "7aee859ded874a99",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "财经/Raw/午盘：26-02-04：分化高于预期，资金偏防守，太空光伏仍强势，科技走弱.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "午盘：26-02-04：分化高于预期，资金偏防守，太空光伏仍强势，科技走弱 的大纲"
+            }
+          },
+          {
+            "id": "d73fea773eb4c22b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "4872742d2e5db92f",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          },
+          {
+            "id": "6c54ec71d0b777aa",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 405.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "marp-slides:Show Slide Preview": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian42-brat:BRAT": false,
+      "claudian:Open Claudian": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "templater-obsidian:Templater": false,
+      "sheet-plus:创建 Excel 文件": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "08a594a7c3beb5fb",
+  "lastOpenFiles": [
+    "赛博青哥wiki/财经/Wiki/博主/标的总览.md.tmp.17912.32475c1a3d63",
+    "赛博青哥wiki/财经/Wiki/每日复盘/2026-06-22.md",
+    "赛博青哥wiki/财经/Wiki/每日复盘/2026-06-21.md",
+    "赛博青哥wiki/财经/Wiki/每日复盘/2026-06-21.md.tmp.17912.7bca3be759f8",
+    "赛博青哥wiki/财经/Raw/复盘：26-06-21：复盘.md",
+    "赛博青哥wiki/财经/Raw/早盘：26-06-22：早盘.md",
+    "A股/上课笔记/吞没形态.md",
+    "策划培训/温润祺培训/Lesson 1：初步了解游戏行业与策划工种.md",
+    "raw/assets/游戏策划岗位类型全景.pptx",
+    "raw/assets/第1堂课_行业数据 1.pptx",
+    "赛博青哥wiki/财经/未命名.base",
+    "赛博青哥wiki/财经/未命名 1.base",
+    "策划培训/温润祺培训/第1堂课_行业数据 1.pptx",
+    "策划培训/温润祺培训/第1堂课_行业数据.pptx",
+    "raw/assets/第1堂课_行业数据.pptx",
+    "策划培训/温润祺培训/教学大纲.md",
+    "PTA.md",
+    "赛博青哥wiki/财经/Raw/早盘：26-06-18：早盘.md",
+    "策划培训/温润祺培训",
+    "策划培训",
+    "赛博青哥wiki/财经/Wiki/每日复盘/2026-06-18.md",
+    "赛博青哥wiki/财经/Raw/其他：26-06-17：入口已开，业绩定胜负：2026陆家嘴论坛后的A股新坐标！.md",
+    "赛博青哥wiki/财经/Wiki/投资方法论/AI硬件梯队定位.md",
+    "赛博青哥wiki/财经/Raw/其他：26-06-17：商业航天.md",
+    "赛博青哥wiki/财经/Raw/早盘：26-06-16：早盘.md",
+    "赛博青哥wiki/财经/Raw/复盘：26-06-16：复盘.md",
+    "赛博青哥wiki/财经/Raw/早盘：26-06-17：早盘.md",
+    "赛博青哥wiki/财经/Wiki/每日复盘/2026-06-17.md",
+    "赛博青哥wiki/财经/Wiki/每日复盘/2026-06-16.md",
+    "赛博青哥wiki/财经/Raw/复盘：26-06-15：复盘.md",
+    "赛博青哥wiki/财经/Raw/早盘：26-06-15：早盘.md",
+    "赛博青哥wiki/财经/Raw/视频：26-06-14：技术分析-吞没形态.md",
+    "赛博青哥wiki/财经/Raw/视频：26-06-15：A股大舞台，有梦你就来！.md",
+    "赛博青哥wiki/财经/Raw/其他：26-06-14：无标题.md",
+    "赛博青哥wiki/财经/Raw/其他：26-06-12：无标题.md",
+    "赛博青哥wiki/财经/Raw/复盘：26-06-14：6.14（复盘）.md",
+    "raw/assets/Pasted image 20260531233824.png",
+    "raw/assets/Pasted image 20260531232558.png",
+    "raw/assets/Pasted image 20260531232506.png",
+    "raw/assets/Pasted image 20260531232358.png",
+    "raw/assets/Pasted image 20260531231609.png",
+    "raw/assets/Pasted image 20260531231435.png",
+    "raw/assets/Pasted image 20260531231031.png",
+    "raw/assets/Pasted image 20260531224103.png",
+    "raw/assets/Pasted image 20260531223040.png",
+    "raw/assets/Pasted image 20260531222409.png",
+    "设计思路/未命名.canvas"
+  ]
+}

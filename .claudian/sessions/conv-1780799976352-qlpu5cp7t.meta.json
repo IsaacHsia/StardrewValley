@@ -1,23 +1,23 @@
 {
   "id": "conv-1780799976352-qlpu5cp7t",
   "providerId": "claude",
-  "title": "Check if ffmpeg is installed",
-  "titleGenerationStatus": "success",
+  "title": "你好",
+  "titleGenerationStatus": "failed",
   "createdAt": 1780799976352,
-  "updatedAt": 1780802875736,
-  "lastResponseAt": 1780802875736,
-  "sessionId": "2c12d43a-76f7-4576-bd47-3098e9349305",
+  "updatedAt": 1782309367940,
+  "lastResponseAt": 1782309367940,
+  "sessionId": null,
   "providerState": {
     "providerSessionId": "2c12d43a-76f7-4576-bd47-3098e9349305"
   },
   "usage": {
-    "model": "haiku",
+    "model": "deepseek-v4-pro",
     "inputTokens": 96,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 120320,
     "contextWindow": 200000,
     "contextTokens": 120416,
     "percentage": 60,
-    "contextWindowIsAuthoritative": true
+    "contextWindowIsAuthoritative": false
   }
 }
