@@ -84,3 +84,18 @@ description: Chronological append-only record of wiki activity
 - Key topics: 规则文件设计、设计文档驱动开发、自测闭环、Git 安全网、TODO 编排、禁改清单
 - Updated `Wiki/index.md` with entry under Technical Patterns
 
+## [2026-07-07] ingest | AI 使用反模式系列（7 篇）— 从「会用」到「用好」
+
+- Sources: `raw/2026-07-06_*.md`（AI 使用反模式视频教学系列，7 集）
+- Created `Wiki/tech-ai-usage/README.md` — 六大反模式诊断与成本优化知识体系
+- Key topics:
+  - **反模式①** 无脑顶配 → 模型分级策略（便宜/中高阶/强模型按任务匹配）
+  - **反模式②** 上下文脏乱 → 上下文组成拆解、工具分级管理、阶段总结搬运法
+  - **反模式③** Cache 盲区 → Cache 机制（1/10 收费、5 分钟窗口、1024 Token 阈值）、失效三件套、最大化命中习惯
+  - **反模式④** Prompt 随心所欲 → 7 个常见错误、正确 Prompt 公式（角色/任务/问题/限制/期望）
+  - **反模式⑤** 黑盒抽卡 → 工程化流程拆解、可单独验收的步骤设计
+  - **反模式⑥** 积分浪费 → 个人积分 vs API 成本对比（4:1）、批量任务迁移方案
+  - **核心辨析** Skills/Rules/MCP/Memory 四概念区别、Ask/Plan/Agent/Multi-task 模式选择金字塔
+- Updated `Wiki/index.md` with entries under Technical Patterns + Sources
+- First Wiki entry dedicated to general AI usage best practices
+

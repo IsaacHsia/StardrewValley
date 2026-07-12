@@ -1,0 +1,23 @@
+{
+  "id": "conv-1783401152999-a8zyimonc",
+  "providerId": "claude",
+  "title": "Ingest new source into Wiki",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783401152999,
+  "updatedAt": 1783401608503,
+  "lastResponseAt": 1783401430432,
+  "sessionId": "c4f43b9e-3404-474f-b097-7d51084e8902",
+  "providerState": {
+    "providerSessionId": "c4f43b9e-3404-474f-b097-7d51084e8902"
+  },
+  "usage": {
+    "model": "claude-code/deepseek-v4-pro",
+    "inputTokens": 104,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 56576,
+    "contextWindow": 200000,
+    "contextTokens": 56680,
+    "percentage": 28,
+    "contextWindowIsAuthoritative": true
+  }
+}
