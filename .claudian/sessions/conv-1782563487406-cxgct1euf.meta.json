@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782563487406-cxgct1euf",
+  "providerId": "claude",
+  "title": "Create lecture PPT from document",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782563487407,
+  "updatedAt": 1782745813199,
+  "lastResponseAt": 1782564077732,
+  "sessionId": "6d62d4a8-5d49-42bb-8706-7e1a839b0977",
+  "providerState": {
+    "providerSessionId": "6d62d4a8-5d49-42bb-8706-7e1a839b0977"
+  },
+  "currentNote": "自媒体/未命名.md",
+  "usage": {
+    "model": "deepseek-v4-pro",
+    "inputTokens": 140,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 71936,
+    "contextWindow": 200000,
+    "contextTokens": 72076,
+    "percentage": 36,
+    "contextWindowIsAuthoritative": true
+  }
+}

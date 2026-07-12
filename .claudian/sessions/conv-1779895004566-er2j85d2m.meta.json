@@ -1,23 +1,26 @@
 {
   "id": "conv-1779895004566-er2j85d2m",
   "providerId": "claude",
-  "title": "Identify AI model type",
+  "title": "Greet in Chinese",
   "titleGenerationStatus": "success",
   "createdAt": 1779895004566,
-  "updatedAt": 1780671389480,
-  "lastResponseAt": 1780671389480,
-  "sessionId": null,
+  "updatedAt": 1782545439191,
+  "lastResponseAt": 1782365146156,
+  "sessionId": "c81c5a65-a1c6-4495-99a3-f85952890450",
   "providerState": {
-    "providerSessionId": "ae929b3a-4c76-49a6-95d4-285f987c0ab5"
+    "providerSessionId": "c81c5a65-a1c6-4495-99a3-f85952890450",
+    "previousProviderSessionIds": [
+      "ae929b3a-4c76-49a6-95d4-285f987c0ab5"
+    ]
   },
   "usage": {
-    "model": "deepseek-v4-pro[1m]",
-    "inputTokens": 229,
+    "model": "deepseek-v4-pro",
+    "inputTokens": 363,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 93952,
-    "contextWindow": 1000000,
-    "contextTokens": 94181,
-    "percentage": 9,
+    "cacheReadInputTokens": 70784,
+    "contextWindow": 200000,
+    "contextTokens": 71147,
+    "percentage": 36,
     "contextWindowIsAuthoritative": true
   }
 }

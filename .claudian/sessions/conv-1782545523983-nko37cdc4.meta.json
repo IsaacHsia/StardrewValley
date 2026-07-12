@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782545523983-nko37cdc4",
+  "providerId": "claude",
+  "title": "Ingest new source into Wiki knowledge base",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782545523984,
+  "updatedAt": 1782567788147,
+  "lastResponseAt": 1782545650551,
+  "sessionId": "c6677093-dcf6-4958-a819-415cfd751b03",
+  "providerState": {
+    "providerSessionId": "c6677093-dcf6-4958-a819-415cfd751b03"
+  },
+  "currentNote": "raw/游戏素材/黑暗之魂3洛斯里克高墙2：高墙深处.md",
+  "usage": {
+    "model": "deepseek-v4-pro",
+    "inputTokens": 1058,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 44416,
+    "contextWindow": 200000,
+    "contextTokens": 45474,
+    "percentage": 23,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "conv-1782745615844-pr77yo18z",
+  "providerId": "claude",
+  "title": "Fix Obsidian Git plugin repo access error",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782745615844,
+  "updatedAt": 1782921200288,
+  "lastResponseAt": 1782921200288,
+  "sessionId": "700331ba-d9e6-4478-9e75-e08e31087e0e",
+  "providerState": {
+    "providerSessionId": "700331ba-d9e6-4478-9e75-e08e31087e0e",
+    "previousProviderSessionIds": [
+      "0786e85c-a1e2-4ee9-842a-c90f63287f3d"
+    ]
+  },
+  "usage": {
+    "model": "claude-code/deepseek-v4-pro",
+    "inputTokens": 85,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 32896,
+    "contextWindow": 200000,
+    "contextTokens": 32981,
+    "percentage": 16,
+    "contextWindowIsAuthoritative": true
+  }
+}

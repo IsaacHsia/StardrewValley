@@ -40,6 +40,43 @@ description: Chronological append-only record of wiki activity
 - Updated `Wiki/index.md` with entries under Concepts
 - Cross-linked: 情绪周期、补涨分支、韬定律、AI供电三剑客
 
+## [2026-06-22] ingest | 58种老物件小红书视频 → 场景独占产品观
+
+- Source: `raw/xhs/2026-06-22 58种老物件.md`（小红书 · 摸鱼创意 · 视频转录）
+- Created `Wiki/synthesis/scene-monopoly.md` — 场景独占作为产品壁垒的另一种范式
+- Core insight: 产品的真正壁垒不一定是技术领先，可能是成为用户某段人生中「唯一的解法」
+- Key concepts: 时间独占 / 渠道独占 / 仪式独占；「更好」的陷阱 — 仅比竞品好20%不足以打破场景独占
+- Cross-linked: ← 58种老物件原始帖子（xhs提取 + Whisper转录）
+- First xhs-sourced Wiki entry; marks expansion of Wiki ingestion pipeline beyond A股 analysis
+
+## [2026-06-27] ingest | 黑暗之魂3 洛斯里克高墙 关卡拆解② — 高墙深处
+
+- Source: `raw/游戏素材/黑暗之魂3洛斯里克高墙2：高墙深处.md`（Bilibili · Ymagine · 视频转录）
+- Created `Wiki/tech-game-level-design/ds3-lothric-high-wall-2.md` — 关卡设计深度拆解
+- Key topics: 高墙边塔/人脓屋顶/餐厅/肥仔广场/返程捷径五大区块，包含 20+ 关卡设计手法详解
+- Core thesis: "关卡是会呼吸的" — 心流理论、3D恶魔城空间连通性、方向感模糊→捷径惊艳
+- Design patterns cataloged: 视觉引导/敌人引导/空间引导/心理节奏/路线控制 五大类
+- Updated `Wiki/index.md` with entries under Technical Patterns, Sources
+- Cross-linked: → Part 1（高墙前期）[[ds3-lothric-high-wall-1]]
+
+## [2026-06-27] ingest | 黑暗之魂3 洛斯里克高墙 关卡拆解① — 高墙前期
+
+- Source: `raw/游戏素材/黑暗之魂3洛斯里克高墙1：高墙前期.md`（Bilibili · Ymagine · 视频转录）
+- Created `Wiki/tech-game-level-design/ds3-lothric-high-wall-1.md` — 关卡设计深度拆解（Part 1）
+- Key topics: 初始之塔 POI 系统、龙石塔教学闭环（提灯哥→实践→奖励）、火龙塔非强制锁钥解谜、高墙边塔多层引导
+- Core thesis: 高墙是「新手保姆」——通过 POI 兴趣点、光影引导、教学式战斗编排、偷袭时机控制完成游戏基础语法教学
+- Key discoveries: 追光源解包实锤（FromSoftware 刻意在楼梯口放置）、偷袭时机 = 心理防御最低点、洪七公理论（道具给予匹配即将面临的挑战）
+- Cross-linked: → Part 2（高墙深处）[[ds3-lothric-high-wall-2]]
+
+## [2026-06-27] ingest | 关卡策划入门 — 行业路径、作品集与设计方法论
+
+- Source: `策划培训/温润祺培训/Lesson 2：关卡策划入门.md`（温润祺培训课件）
+- Created `Wiki/tech-game-level-design/level-design-primer.md` — 关卡策划入门方法论
+- Key topics: 单机买断制 vs 商业化手游（GaaS）行业路径对比、关卡策划作品集五大模块、设计草稿六步法（以 Half-Life 2 逃脱关为例）
+- Core thesis: 关卡策划核心能力不是「会做地图」而是「能用设计意图驱动玩家行为」
+- Design patterns: 长期目标+短期目标交替 / 逻辑先于视觉 / 教学→解题→组合 / 游戏性桥段节奏弧线
+- Cross-linked: DS3 拆解①②（关卡拆解范本）、与设计草稿六步法互补（创作框架 vs 分析框架）
+
 ## [2026-04-29] ingest | AI CLI 游戏引擎工程接管方案
 
 - Source: `raw/assets/AI CLI使用方案.md`

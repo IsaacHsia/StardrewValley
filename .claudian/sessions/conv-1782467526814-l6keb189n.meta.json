@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782467526814-l6keb189n",
+  "providerId": "claude",
+  "title": "Reformat CLAUDE.md as Obsidian template",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782467526814,
+  "updatedAt": 1782564463494,
+  "lastResponseAt": 1782467566644,
+  "sessionId": "9f123432-66df-4cb6-90c7-143153a59af6",
+  "providerState": {
+    "providerSessionId": "9f123432-66df-4cb6-90c7-143153a59af6"
+  },
+  "usage": {
+    "model": "deepseek-v4-pro",
+    "inputTokens": 247,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31104,
+    "contextWindow": 200000,
+    "contextTokens": 31351,
+    "percentage": 16,
+    "contextWindowIsAuthoritative": true
+  }
+}
