@@ -9,6 +9,7 @@ description: Content-oriented catalog of the knowledge wiki
 
 | Page | Summary | Date | Sources |
 |------|---------|------|---------|
+| [[synthesis/china-innovative-drug-industry\|中国创新药全产业链]] | 政策身份切换（控费→扶持）、出海BD突破（2025年1356亿美元）、四大技术主线（代谢/细胞治疗/AI制药/抗病毒）、资金面三层结构、代表性公司分析、消费医疗与长护险结构性主线 | 2026-07-14 | 1 |
 | [[synthesis/scene-monopoly\|场景独占：产品壁垒的另一种范式]] | 真正壁垒不是技术领先，而是成为用户某段人生中「唯一的解法」——从58种老物件中提炼的产品竞争观 | 2026-06-22 | 1 |
 | [[project-a-stock/2026-05-28-收盘\|V型修复与聚焦度博弈（5.28）]] | CPU自研主题 / CPO核心 / 涨价链扩散 / 液冷cage / AWS Bedrock利润反转 | 2026-05-28 | 1 |
 | [[project-a-stock/2026-05-27-收盘\|情绪周期起点（5.27）]] | AI 主线阶段切换：超容/端侧AI/TGV/纳米晶/SST 六大方向 + 操作框架 | 2026-05-27 | 1 |

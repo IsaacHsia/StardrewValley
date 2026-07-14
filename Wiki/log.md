@@ -115,3 +115,20 @@ description: Chronological append-only record of wiki activity
 - Updated `Wiki/index.md` with entry under Technical Patterns
 - Cross-linked: → [[tech-game-level-design/level-design-primer]]（游戏设计理念）; ← 原始视频转录
 
+## [2026-07-14] ingest | 中国创新药全产业链
+
+- Source: `raw/创新药全产业链(1).md`（视频转录 · 创新药产业深度分析）
+- Created `Wiki/synthesis/china-innovative-drug-industry.md` — 中国创新药全产业链全景分析
+- Core thesis: 中国医药正经历「从控费压制到创新扶持、从内需到出海、从防御到成长」的三重身份切换
+- Key topics:
+  - **产业身份转变**: 生物医药被定位为新兴支柱产业，估值锚从控费压制→创新扶持
+  - **四大历史阶段**: 2015前仿制→2015-2018制度破冰→2019-2023泡沫出清→2024至今收获分化
+  - **资金面三层结构**: 一级市场 VC/PE（结构性回暖）、二级市场 18A（2025修复）、BD首付款（2025年 1,356亿美元）
+  - **四大技术主线**: ①代谢减重（GLP-1依从性竞争、MASH千亿蓝海）、②细胞治疗迭代（TIL→实体瘤、in vivo CAR-T→标准化药品）、③AI制药递送（晶泰科技「火箭+卫星」）、④呼吸抗病毒（昂拉地韦 vs 玛巴洛沙韦耐药争议）+ AD（Aβ清除 vs 神经保护路径分化）
+  - **代表性公司**: 中国生物制药（平台型六边形战士）、众生药业（呼吸底座→代谢转型）、银诺医药（超长效 GLP-1 健康瘦）
+  - **结构性主线**: 消费医疗皮肤赛道（新媒体重构）+ 长护险（2026全国建设）+ 中国药登（出海定价锚）
+  - **产业链扩散**: CGT平台、病毒载体/CDMO、LNP递送、质控检测、上游耗材五大受益环节
+- First Wiki entry covering innovative drug industry; marks expansion into biomedical/pharma domain
+- Updated `Wiki/index.md` with entry under Concepts
+- Cross-linked: ← 原始视频转录 [[raw/创新药全产业链(1)]]
+

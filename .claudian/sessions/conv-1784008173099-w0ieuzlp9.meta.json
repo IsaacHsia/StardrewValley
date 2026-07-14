@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784008173099-w0ieuzlp9",
+  "providerId": "claude",
+  "title": "Ingest new source into Wiki",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784008173099,
+  "updatedAt": 1784008252768,
+  "lastResponseAt": 1784008252768,
+  "sessionId": "10b08d82-a234-43f6-8364-ccc4ea6d94bf",
+  "providerState": {
+    "providerSessionId": "10b08d82-a234-43f6-8364-ccc4ea6d94bf"
+  },
+  "currentNote": "raw/创新药全产业链(1).md",
+  "usage": {
+    "model": "claude-code/deepseek-v4-pro",
+    "inputTokens": 2542,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 52608,
+    "contextWindow": 200000,
+    "contextTokens": 55150,
+    "percentage": 28,
+    "contextWindowIsAuthoritative": true
+  }
+}
