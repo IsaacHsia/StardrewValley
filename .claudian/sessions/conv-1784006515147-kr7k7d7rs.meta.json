@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784006515147-kr7k7d7rs",
+  "providerId": "claude",
+  "title": "Ingest source and create Wiki entries",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784006515153,
+  "updatedAt": 1784006567805,
+  "lastResponseAt": 1784006567805,
+  "sessionId": "d76f7b38-9584-4e17-9bde-c4683224960e",
+  "providerState": {
+    "providerSessionId": "d76f7b38-9584-4e17-9bde-c4683224960e"
+  },
+  "currentNote": "raw/2026-07-14 如何区分中日建筑.md",
+  "usage": {
+    "model": "claude-code/deepseek-v4-pro",
+    "inputTokens": 74,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 43776,
+    "contextWindow": 200000,
+    "contextTokens": 43850,
+    "percentage": 22,
+    "contextWindowIsAuthoritative": true
+  }
+}

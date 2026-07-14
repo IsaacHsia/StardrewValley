@@ -29,6 +29,7 @@ description: Content-oriented catalog of the knowledge wiki
 | [[tech-game-level-design/ds3-lothric-high-wall-1\|DS3 洛斯里克高墙 关卡拆解①]] | 黑暗之魂3 高墙前期关卡拆解：POI系统、教学闭环、光影引导、偷袭时机 | 2026-06-27 | 1 |
 | [[tech-game-level-design/ds3-lothric-high-wall-2\|DS3 洛斯里克高墙 关卡拆解②]] | 黑暗之魂3 高墙深处关卡拆解：空间引导、心流节奏、3D恶魔城设计原理 | 2026-06-27 | 1 |
 | [[tech-game-level-design/level-design-primer\|关卡策划入门方法论]] | 行业路径选择、作品集构建、设计草稿六步法（以HL2逃脱关为例） | 2026-06-27 | 1 |
+| [[tech-game-architecture/cn-jp-architecture-diff\|中日建筑屋顶区分 — 游戏场景美术指南]] | 庑殿/歇山/悬山/硬山/卷棚/抱厦 vs 入母屋造/切妻造/千鸟破风/唐破风 — 中日屋顶核心差异 + 原神璃月以倭代唐案例解剖 | 2026-07-14 | 1 |
 
 ## Sources (来源)
 

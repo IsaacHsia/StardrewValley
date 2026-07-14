@@ -99,3 +99,19 @@ description: Chronological append-only record of wiki activity
 - Updated `Wiki/index.md` with entries under Technical Patterns + Sources
 - First Wiki entry dedicated to general AI usage best practices
 
+## [2026-07-14] ingest | 中日建筑屋顶区分 — 游戏场景美术指南
+
+- Source: `raw/2026-07-14 如何区分中日建筑.md`（Bilibili · 鱼白施行 · 视频转录）
+- Created `Wiki/tech-game-architecture/cn-jp-architecture-diff.md` — 中式与日式建筑屋顶的六大核心差异 + 原神璃月反面案例
+- Key topics:
+  - **中式基础**: 庑殿（五殿顶）、歇山（九级顶）、悬山、硬山、卷棚、抱厦（正交式/平行式）
+  - **日式对应**: 入母屋造、切妻造；破风体系（千鸟破风/入母屋破风/切妻破风/唐破风）
+  - **核心差异①**: 硬山顶中存日无；千鸟破风/唐破风为日式独有（不存于中国古建筑）
+  - **核心差异②**: 中式抱厦正交式仅有歇山一种；日式有切妻破风抱厦和唐破风抱厦
+  - **核心差异③**: 高层抱厦中式半封闭+有承托 vs 日式全封闭+可悬空
+  - **反向案例**: 原神璃月大量混用千鸟破风、唐破风、切妻破风抱厦 — 以倭代唐
+  - **方法论**: 古画不宜做建筑考据（多数为想象创作）；做减法才能掌握中式建筑内核
+- Created new category `tech-game-architecture/` for game scene architectural knowledge
+- Updated `Wiki/index.md` with entry under Technical Patterns
+- Cross-linked: → [[tech-game-level-design/level-design-primer]]（游戏设计理念）; ← 原始视频转录
+
