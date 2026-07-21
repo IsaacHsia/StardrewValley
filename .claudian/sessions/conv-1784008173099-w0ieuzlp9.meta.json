@@ -4,13 +4,13 @@
   "title": "Ingest new source into Wiki",
   "titleGenerationStatus": "success",
   "createdAt": 1784008173099,
-  "updatedAt": 1784008252768,
+  "updatedAt": 1784471504709,
   "lastResponseAt": 1784008252768,
   "sessionId": "10b08d82-a234-43f6-8364-ccc4ea6d94bf",
   "providerState": {
     "providerSessionId": "10b08d82-a234-43f6-8364-ccc4ea6d94bf"
   },
-  "currentNote": "raw/创新药全产业链(1).md",
+  "currentNote": "A股/市场分析/创新药全产业链(1).md",
   "usage": {
     "model": "claude-code/deepseek-v4-pro",
     "inputTokens": 2542,

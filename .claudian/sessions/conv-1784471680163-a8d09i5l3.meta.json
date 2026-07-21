@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784471680163-a8d09i5l3",
+  "providerId": "claude",
+  "title": "Ingest new source into Wiki",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784471680163,
+  "updatedAt": 1784471747894,
+  "lastResponseAt": 1784471747894,
+  "sessionId": "53f2a5d4-69f0-419e-b7ed-896413c91583",
+  "providerState": {
+    "providerSessionId": "53f2a5d4-69f0-419e-b7ed-896413c91583"
+  },
+  "currentNote": "A股/市场分析/商业航天. 太空算力.md",
+  "usage": {
+    "model": "claude-code/deepseek-v4-pro",
+    "inputTokens": 1839,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 62720,
+    "contextWindow": 200000,
+    "contextTokens": 64559,
+    "percentage": 32,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "conv-1784443726396-uoj8dcbpb",
+  "providerId": "claude",
+  "title": "Analyze source and create Wiki entries",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784443726396,
+  "updatedAt": 1784467911589,
+  "lastResponseAt": 1784467911589,
+  "sessionId": "d5728aff-a93b-4358-972c-fbf41539b23e",
+  "providerState": {
+    "providerSessionId": "d5728aff-a93b-4358-972c-fbf41539b23e"
+  },
+  "usage": {
+    "model": "claude-code/deepseek-v4-pro",
+    "inputTokens": 40,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 68480,
+    "contextWindow": 200000,
+    "contextTokens": 68520,
+    "percentage": 34,
+    "contextWindowIsAuthoritative": true
+  }
+}

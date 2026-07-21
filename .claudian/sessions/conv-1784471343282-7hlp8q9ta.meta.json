@@ -1,0 +1,23 @@
+{
+  "id": "conv-1784471343282-7hlp8q9ta",
+  "providerId": "claude",
+  "title": "Ingest self-media workflow from XHS",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784471343282,
+  "updatedAt": 1784471546310,
+  "lastResponseAt": 1784471546310,
+  "sessionId": "096e94b4-14bf-44fb-9439-dd7153c36cca",
+  "providerState": {
+    "providerSessionId": "096e94b4-14bf-44fb-9439-dd7153c36cca"
+  },
+  "usage": {
+    "model": "claude-code/deepseek-v4-pro",
+    "inputTokens": 92,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 42112,
+    "contextWindow": 200000,
+    "contextTokens": 42204,
+    "percentage": 21,
+    "contextWindowIsAuthoritative": true
+  }
+}

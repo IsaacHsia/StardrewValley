@@ -27,10 +27,19 @@ description: Content-oriented catalog of the knowledge wiki
 |------|---------|------|---------|
 | [[tech-ai-cli-game-dev/README\|AI CLI 游戏引擎工程接管]] | 用 AI CLI 模式全面接管 Godot/Unity/Unreal 工程的工作流方案 | 2026-04-29 | 1 |
 | [[tech-ai-usage/README\|AI 使用反模式与成本优化]] | AI 六大反模式诊断：Cache 盲区、上下文脏乱、模型不分级、Prompt 信息密度不足、黑盒抽卡、积分浪费 | 2026-07-07 | 7 |
+| [[tech-ai-video-prod/README\|AI 辅助自媒体视频制作工作流]] | AI 赋能自媒体视频制作全流程：AI 分镜、Mac 生态优势、Codex+Remotion 动效、达芬奇脚本自动化、MCP 元数据生成 | 2026-07-19 | 1 |
+| [[tech-video-editing/README\|视频剪辑系统课程 — 从基础到实战]] | 3 季 13 课完整剪辑课程：口播精剪、节奏蒙太奇、音效设计、调色科学、运动图形、追踪合成、多机位、时钟理论、Vlog 实战 | 2026-07-19 | 15 |
+| [[tech-video-editing/vlog-shooting\|Vlog 拍摄技巧 — 影视飓风 2019]] | A-Roll 讲话心态与技巧、音频方案（防风毛衣/枪麦）、构图与曝光（柔光/纸灯笼）、B-Roll 延时/升格/俯拍、低成本创意道具 | 2026-07-19 | 1 |
 | [[tech-game-level-design/ds3-lothric-high-wall-1\|DS3 洛斯里克高墙 关卡拆解①]] | 黑暗之魂3 高墙前期关卡拆解：POI系统、教学闭环、光影引导、偷袭时机 | 2026-06-27 | 1 |
 | [[tech-game-level-design/ds3-lothric-high-wall-2\|DS3 洛斯里克高墙 关卡拆解②]] | 黑暗之魂3 高墙深处关卡拆解：空间引导、心流节奏、3D恶魔城设计原理 | 2026-06-27 | 1 |
 | [[tech-game-level-design/level-design-primer\|关卡策划入门方法论]] | 行业路径选择、作品集构建、设计草稿六步法（以HL2逃脱关为例） | 2026-06-27 | 1 |
+| [[tech-a-stock-ta/README\|A股技术分析 — 青枫浦上K线课程]] | 单根K线/双K线组合/7轨布林线/强趋势股交易系统/大五人格性格适配 — 6集B站技术分析课程综合梳理 | 2026-07-19 | 6 |
+| [[tech-a-stock-ta/single-k-line\|单根K线 — 多空表态型]] | 低档/高档长红、长红突破/跌破、长黑线、上吊线/铁锤线、流星线/倒装铁锤线 — 极端形态的趋势末端反转信号 | 2026-07-19 | 1 |
+| [[tech-a-stock-ta/k-line-reversal-pairs\|双K线反转组合 — 吞没/孕线/刺透乌云]] | 看涨/跌吞没（力量反超）、孕线（力量衰竭预警）、刺透形态/乌云盖顶（力量切换过半）— A级/B级/C级分类与实战操作 | 2026-07-19 | 3 |
+| [[tech-a-stock-ta/bollinger-7\|7轨布林线 — 超买超卖判断]] | 7条轨道从极端超买到极端超卖，第3轨为趋势分水岭，顶轨减仓/底轨建仓 | 2026-07-19 | 1 |
+| [[tech-a-stock-ta/trading-philosophy\|交易之道 — 强趋势股系统与性格适配]] | 量化时代个人交易者出路、强趋势股三层分类、追高vs低吸买点体系、主动意识与模式思维、滚动操作、时间周期有效性、大五人格×八字食神交易适配 | 2026-07-19 | 1 |
 | [[tech-game-architecture/cn-jp-architecture-diff\|中日建筑屋顶区分 — 游戏场景美术指南]] | 庑殿/歇山/悬山/硬山/卷棚/抱厦 vs 入母屋造/切妻造/千鸟破风/唐破风 — 中日屋顶核心差异 + 原神璃月以倭代唐案例解剖 | 2026-07-14 | 1 |
+| [[tech-commercial-space/README\|商业航天全产业链]] | 商业航天从工程→工业时代转型：四重拐点、六大子赛道（太空算力/卫星通信/可回收火箭/SSA/测控/太空光伏）、中美路径对比、SpaceX IPO 分析、投资框架 | 2026-07-19 | 1 |
 
 ## Sources (来源)
 
@@ -47,8 +56,10 @@ description: Content-oriented catalog of the knowledge wiki
 | [[raw/游戏素材/黑暗之魂3洛斯里克高墙2：高墙深处\|DS3 高墙深处 — Bilibili 视频转录]] | Ymagine 关卡拆解系列第二期，高墙边塔→人脓屋顶→餐厅→肥仔广场→返程捷径 | 2026-06-27 |
 | [[策划培训/温润祺培训/Lesson 2：关卡策划入门\|关卡策划入门培训课件]] | 温润祺培训第二课，行业路径对比 + 作品集构建 + 设计草稿六步法 | 2026-06-27 |
 | [[raw/xhs/2026-06-22 58种老物件\|58种老物件 — 小红书视频]] | 8分53秒视频，58种20世纪中国老物件展示，转录约2900字 | 2026-06-22 |
-| [[raw/assets/5.28收盘分析\|5.28 A股收盘分析]] | V型修复 + CPU自研 + 涨价链 + 增量术语注解 | 2026-05-28 |
-| [[raw/assets/5.27收盘分析\|5.27 A股收盘分析]] | 完整原始分析 + 40+ 术语注解 | 2026-05-27 |
+| [[raw/剪辑教学/番外：自媒体Ai工具使用\|自媒体的Ai工具使用 — Bilibili 视频转录]] | 映像同好会：Mac 是 AI 时代自媒体版本答案的完整论证 | 2026-06-11 |
+| [[raw/剪辑教学/番外：vlog剪辑技巧\|Vlog 剪辑技巧 8 招 — Bilibili 视频转录]] | 你好关键帧：新手向 Vlog 从流水账到高质感的 8 个中后期技巧 | 2026-01-20 |
+| [[raw/剪辑教学/番外：设备准备\|剪辑设备准备清单]] | 支架、麦克风、灯光设备的基础配置参考 | - |
+| `raw/剪辑教学/S1L1-S3L5`（13 课） | 剪辑系统课程三季：口播精剪、节奏蒙太奇、音效设计、调色、运动图形、追踪、多机位、时钟理论、Vlog | 2026-07 |
 
 ## Projects (项目)
 
@@ -68,4 +79,4 @@ description: Content-oriented catalog of the knowledge wiki
 
 ---
 
-*Last updated: 2026-07-07 · [[log|See log for recent changes]]*
+*Last updated: 2026-07-19 · [[log|See log for recent changes]]*

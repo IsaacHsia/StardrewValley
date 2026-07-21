@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784470785535-zb9fda861",
+  "providerId": "claude",
+  "title": "Ingest new source into Wiki",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784470785535,
+  "updatedAt": 1784470857474,
+  "lastResponseAt": 1784470857474,
+  "sessionId": "2442fce3-136c-4e60-abac-b1c7bd038ebc",
+  "providerState": {
+    "providerSessionId": "2442fce3-136c-4e60-abac-b1c7bd038ebc"
+  },
+  "currentNote": "raw/剪辑教学/影视飓风2019：如何拍第一个Vlog.md",
+  "usage": {
+    "model": "claude-code/deepseek-v4-pro",
+    "inputTokens": 547,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 46720,
+    "contextWindow": 200000,
+    "contextTokens": 47267,
+    "percentage": 24,
+    "contextWindowIsAuthoritative": true
+  }
+}

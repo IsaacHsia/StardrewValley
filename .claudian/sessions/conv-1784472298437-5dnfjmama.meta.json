@@ -1,0 +1,23 @@
+{
+  "id": "conv-1784472298437-5dnfjmama",
+  "providerId": "claude",
+  "title": "Analyze class notes and create Wiki entries",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784472298437,
+  "updatedAt": 1784472424988,
+  "lastResponseAt": 1784472424988,
+  "sessionId": "63da8f0d-b3f4-4dd2-84bf-98db4c3da450",
+  "providerState": {
+    "providerSessionId": "63da8f0d-b3f4-4dd2-84bf-98db4c3da450"
+  },
+  "usage": {
+    "model": "claude-code/deepseek-v4-pro",
+    "inputTokens": 403,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 86784,
+    "contextWindow": 200000,
+    "contextTokens": 87187,
+    "percentage": 44,
+    "contextWindowIsAuthoritative": true
+  }
+}
