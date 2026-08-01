@@ -1,0 +1,23 @@
+{
+  "id": "conv-1785167015636-vem3a33h4",
+  "providerId": "claude",
+  "title": "Summarize ReplayMasters application requirements",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785167015641,
+  "updatedAt": 1785594039824,
+  "lastResponseAt": 1785594039824,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "663cb712-7cae-45b2-8e3f-30e3ec9cc617"
+  },
+  "usage": {
+    "model": "deepseek-v4-pro",
+    "inputTokens": 30538,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 30538,
+    "percentage": 15,
+    "contextWindowIsAuthoritative": true
+  }
+}

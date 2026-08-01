@@ -1,0 +1,24 @@
+{
+  "id": "conv-1785073914736-l66p60odl",
+  "providerId": "claude",
+  "title": "Create challenge vlog project template",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785073914737,
+  "updatedAt": 1785165328840,
+  "lastResponseAt": 1785165328840,
+  "sessionId": null,
+  "providerState": {
+    "providerSessionId": "886ae3d3-1b72-4bc3-8e3c-7154fca0869b"
+  },
+  "currentNote": "自媒体/模板/Hero_Vlog不可控场景清单.md",
+  "usage": {
+    "model": "claude-code/deepseek-v4-pro",
+    "inputTokens": 455,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 42752,
+    "contextWindow": 200000,
+    "contextTokens": 43207,
+    "percentage": 22,
+    "contextWindowIsAuthoritative": true
+  }
+}
