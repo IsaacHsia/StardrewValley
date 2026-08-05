@@ -75,6 +75,7 @@ def extract_basic_info(item):
 
     title = ""
     preview = ""
+    img_urls = []
     if major_type == "MAJOR_TYPE_OPUS":
         opus = major.get("opus", {})
         title = opus.get("title", "")
@@ -84,6 +85,20 @@ def extract_basic_info(item):
         a = major.get("archive", {})
         title = a.get("title", "")
         preview = a.get("desc", "") or a.get("dynamic", "")
+    elif major_type == "MAJOR_TYPE_DRAW":
+        # 图片动态：正文在图片里，脚本存下图片URL避免丢失内容
+        draw = major.get("draw", {})
+        for it in (draw.get("items") or []):
+            src = it.get("src") or it.get("url") or ""
+            if src:
+                img_urls.append(src)
+        title = "图片动态"
+        preview = "\n".join(f"![img]({u})" for u in img_urls) if img_urls else ""
+    elif major_type == "MAJOR_TYPE_FORWARD":
+        title = "转发动态"
+        orig = major.get("orig", {})
+        s = orig.get("summary", {})
+        preview = s.get("text", "") if isinstance(s, dict) else str(s)
 
     full_text = preview
     jump_opus_id = ""
@@ -96,8 +111,19 @@ def extract_basic_info(item):
     return {
         "dy_id": dy_id, "pub_ts": pub_ts, "major_type": major_type,
         "title": title, "preview": preview, "full_text": full_text,
-        "jump_opus_id": jump_opus_id,
+        "jump_opus_id": jump_opus_id, "img_urls": img_urls,
     }
+
+
+def is_empty(info):
+    """判断动态是否无实质内容（无标题、无正文、非图片动态）"""
+    if info["major_type"] == "MAJOR_TYPE_DRAW" and info.get("img_urls"):
+        return False  # 图片动态至少保留了图片链接，不算空
+    if info["major_type"] == "MAJOR_TYPE_FORWARD" and info.get("full_text", "").strip():
+        return False
+    title = (info.get("title") or "").strip()
+    ft = (info.get("full_text") or "").strip()
+    return (not title or title == "无标题") and not ft
 
 
 def fetch_opus_detail(session, jump_opus_id):
@@ -154,6 +180,8 @@ def make_filename(info):
     date_str = pub_dt.strftime("%y-%m-%d")
     title = info["title"] or info["preview"] or "无标题"
     title = title.replace("/", "-").replace("\\", "-").replace(":", "-")[:40]
+    if not title.strip() or title.strip() == "无标题":
+        title = "图片动态" if info.get("img_urls") else "无标题"
     mtype = info["major_type"]
     if mtype == "MAJOR_TYPE_OPUS":
         if "复盘" in title:
@@ -166,6 +194,10 @@ def make_filename(info):
             prefix = "其他"
     elif mtype == "MAJOR_TYPE_ARCHIVE":
         prefix = "视频"
+    elif mtype == "MAJOR_TYPE_DRAW":
+        prefix = "图片"
+    elif mtype == "MAJOR_TYPE_FORWARD":
+        prefix = "转发"
     else:
         prefix = "其他"
     return f"{prefix}：{date_str}：{title}.md"
@@ -197,6 +229,7 @@ def main():
 
     from_str = None
     force = False
+    skip_empty = False
     args = sys.argv[1:]
     i = 0
     while i < len(args):
@@ -207,6 +240,9 @@ def main():
             force = True
             i += 1
         elif args[i] == "--comments":
+            i += 1
+        elif args[i] == "--skip-empty":
+            skip_empty = True
             i += 1
         else:
             i += 1
@@ -251,7 +287,14 @@ def main():
     print()
     saved_count = 0
     skipped = 0
+    empty_skipped = 0
     for info in items:
+        # 跳过空动态（无标题、无正文，且非图片动态）
+        if skip_empty and is_empty(info):
+            fname = make_filename(info)
+            print(f"  [SKIP-EMPTY] {fname} (无实质内容)")
+            empty_skipped += 1
+            continue
         fname = make_filename(info)
         pub_dt = datetime.fromtimestamp(info["pub_ts"], tz=CST)
         title = info["title"] or "无标题"
@@ -267,7 +310,7 @@ def main():
         else:
             skipped += 1
 
-    print(f"\n[完成] 新保存 {saved_count} 篇, 跳过 {skipped} 篇 (已存在)")
+    print(f"\n[完成] 新保存 {saved_count} 篇, 跳过 {skipped} 篇 (已存在), 跳过空动态 {empty_skipped} 篇")
 
 
 if __name__ == "__main__":
